@@ -11247,6 +11247,10 @@ PrefabInstance:
       propertyPath: jumpButtonPressLimit
       value: 0.15
       objectReference: {fileID: 0}
+    - target: {fileID: 5146677483737960059, guid: fa2a48caa8cfa7342801313f552702ad, type: 3}
+      propertyPath: whatIsTightSpace.m_Bits
+      value: 32768
+      objectReference: {fileID: 0}
     - target: {fileID: 6517189683766294035, guid: fa2a48caa8cfa7342801313f552702ad, type: 3}
       propertyPath: m_IsActive
       value: 0

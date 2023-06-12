@@ -44,6 +44,7 @@ public class DoorController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        #region DOOR ACCESS CHECK
         // Checks the type of door and if player has access to it
         if (energy)
         {
@@ -116,6 +117,7 @@ public class DoorController : MonoBehaviour
             isNotOpen = false;
             anim.SetTrigger("hasAccess");
         }
+        #endregion
 
         // Checks if the door can be opened
         if (isNotOpen == true)

@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    #region VARIABLES
     public GameObject start, optionsList, arrowsOptionsList, savesListStart, savesListContinue, arrowsSavesList, settings;
     public GameObject[] arrowsOptions;
     public GameObject[] arrowsSaves;
@@ -14,10 +16,41 @@ public class MainMenu : MonoBehaviour
     private int i;
     private int j;
 
+    public Button[] buttons;
+
+    [Header("Fade Screen")]
+    public Image fadeScreen;
+    public float fadeSpeed = 2;
+    private bool fadingToBlack, fadingFromBlack;
+    #endregion
+
     // Start is called before the first frame update
     void Start()
     {
         AudioManager.instance.PlayMainMenuMusic();
+    }
+
+    void Update()
+    {
+        if (fadingToBlack)
+        {
+            fadeScreen.color = new Color(fadeScreen.color.r, fadeScreen.color.g, fadeScreen.color.b, Mathf.MoveTowards(fadeScreen.color.a, 1f, fadeSpeed * Time.deltaTime));
+
+            if (fadeScreen.color.a == 1f)
+            {
+                fadingToBlack = false;
+            }
+        }
+        else if (fadingFromBlack)
+        {
+            fadeScreen.color = new Color(fadeScreen.color.r, fadeScreen.color.g, fadeScreen.color.b, Mathf.MoveTowards(fadeScreen.color.a, 0f, fadeSpeed * Time.deltaTime));
+
+            if (fadeScreen.color.a == 0f)
+            {
+                fadingFromBlack = false;
+            }
+
+        }
     }
 
     /*// Update is called once per frame
@@ -179,7 +212,7 @@ public class MainMenu : MonoBehaviour
 
     public void NewGame()
     {
-        SceneManager.LoadScene(newGameScene);
+        StartCoroutine(StartGameCo());
     }
 
     public void ContinueGame()
@@ -190,5 +223,17 @@ public class MainMenu : MonoBehaviour
     public void QuitGame()
     {
         
+    }
+
+    IEnumerator StartGameCo()
+    {
+        fadingToBlack = true;
+
+        yield return new WaitForSeconds(5f);
+
+        fadingToBlack = false;
+        fadingFromBlack = true;
+
+        SceneManager.LoadScene(newGameScene);
     }
 }

@@ -10,7 +10,7 @@ TagManager:
   - Wall
   - Door
   - Punch
-  - FluxBullet
+  - Elevator
   layers:
   - Default
   - TransparentFX
@@ -27,8 +27,8 @@ TagManager:
   - EnemyAttack
   - FluxBullet
   - Enemy
-  - Crawl
-  - 
+  - TightSpace
+  - Elevator
   - 
   - 
   - 

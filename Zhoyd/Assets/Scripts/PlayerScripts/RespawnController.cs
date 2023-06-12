@@ -35,7 +35,7 @@ public class RespawnController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void SetSpawn(Vector3 newPosition)

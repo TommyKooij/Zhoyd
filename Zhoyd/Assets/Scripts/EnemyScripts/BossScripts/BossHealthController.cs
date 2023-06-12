@@ -8,14 +8,24 @@ public class BossHealthController : MonoBehaviour
 
     public static BossHealthController instance;
 
+    #region VARIABLES
+    public Slider bossHealthSlider;
+    public int currentHealth = 30;
+    public BossBattle theBoss;
+
+    public float invincibilityLength;
+    private float invinceCounter;
+    public float flashLength;
+    private float flashCounter;
+    private bool isDamaged = false;
+
+    public SpriteRenderer[] playerSprites;
+    #endregion
+
     private void Awake()
     {
         instance = this;
     }
-
-    public Slider bossHealthSlider;
-    public int currentHealth = 30;
-    public BossBattle theBoss;
 
     // Start is called before the first frame update
     void Start()
@@ -24,16 +34,58 @@ public class BossHealthController : MonoBehaviour
         bossHealthSlider.value = currentHealth;
     }
 
+    void Update()
+    {
+        #region INVINCIBLE LENGTH
+        if (invinceCounter > 0)
+        {
+            isDamaged = true;
+            invinceCounter -= Time.deltaTime;
+
+            flashCounter -= Time.deltaTime;
+            if (flashCounter <= 0)
+            {
+                foreach (SpriteRenderer sr in playerSprites)
+                {
+                    sr.enabled = !sr.enabled;
+                }
+
+                flashCounter = flashLength;
+            }
+
+            if (invinceCounter <= 0)
+            {
+                foreach (SpriteRenderer sr in playerSprites)
+                {
+                    sr.enabled = true;
+                }
+                flashCounter = 0f;
+            }
+        }
+        else
+        {
+            isDamaged = false;
+        }
+        #endregion
+    }
+
     public void TakeDamage(int damageAmount)
     {
-        currentHealth -= damageAmount;
-
-        if(currentHealth <= 0)
+        if (isDamaged == false)
         {
-            currentHealth = 0;
-            theBoss.EndBattle();
-        }
+            currentHealth -= damageAmount;
 
-        bossHealthSlider.value = currentHealth;
+            if (currentHealth <= 0)
+            {
+                currentHealth = 0;
+                theBoss.EndBattle();
+            }
+            else
+            {
+                invinceCounter = invincibilityLength;
+            }
+
+            bossHealthSlider.value = currentHealth;
+        }
     }
 }

@@ -165,8 +165,8 @@ TextureImporter:
       name: Rory_Spritesheet_Jump_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 96
+        x: 96
+        y: 48
         width: 48
         height: 48
       alignment: 0
@@ -186,8 +186,8 @@ TextureImporter:
       name: Rory_Spritesheet_Jump_11
       rect:
         serializedVersion: 2
-        x: 48
-        y: 96
+        x: 144
+        y: 48
         width: 48
         height: 48
       alignment: 0
@@ -207,8 +207,8 @@ TextureImporter:
       name: Rory_Spritesheet_Jump_12
       rect:
         serializedVersion: 2
-        x: 96
-        y: 96
+        x: 0
+        y: 0
         width: 48
         height: 48
       alignment: 0
@@ -228,8 +228,8 @@ TextureImporter:
       name: Rory_Spritesheet_Jump_13
       rect:
         serializedVersion: 2
-        x: 144
-        y: 96
+        x: 48
+        y: 0
         width: 48
         height: 48
       alignment: 0
@@ -249,8 +249,8 @@ TextureImporter:
       name: Rory_Spritesheet_Jump_14
       rect:
         serializedVersion: 2
-        x: 192
-        y: 96
+        x: 96
+        y: 0
         width: 48
         height: 48
       alignment: 0
@@ -270,8 +270,8 @@ TextureImporter:
       name: Rory_Spritesheet_Jump_15
       rect:
         serializedVersion: 2
-        x: 240
-        y: 96
+        x: 144
+        y: 0
         width: 48
         height: 48
       alignment: 0
@@ -291,8 +291,8 @@ TextureImporter:
       name: Rory_Spritesheet_Jump_16
       rect:
         serializedVersion: 2
-        x: 288
-        y: 96
+        x: 192
+        y: 0
         width: 48
         height: 48
       alignment: 0
@@ -309,11 +309,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rory_Spritesheet_Jump_20
+      name: Rory_Spritesheet_Jump_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 48
+        y: 96
         width: 48
         height: 48
       alignment: 0
@@ -323,18 +323,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 820a4c5543c2ded4b80664089f5835ec
-      internalID: 1322609058
+      spriteID: 88c62bda36bc8b74fb8c9464d30b5d4a
+      internalID: 3668477185906637178
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rory_Spritesheet_Jump_21
+      name: Rory_Spritesheet_Jump_2
       rect:
         serializedVersion: 2
         x: 48
-        y: 48
+        y: 96
         width: 48
         height: 48
       alignment: 0
@@ -344,18 +344,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 605f7032d7b76334ea23490f584c623f
-      internalID: -1651412896
+      spriteID: 4c7955b807c44e946b816c740353a018
+      internalID: -2625558050170564887
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rory_Spritesheet_Jump_22
+      name: Rory_Spritesheet_Jump_3
       rect:
         serializedVersion: 2
         x: 96
-        y: 48
+        y: 96
         width: 48
         height: 48
       alignment: 0
@@ -365,17 +365,101 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 858e1e07dbd17aa4f9be1693262a6c95
-      internalID: -21968412
+      spriteID: 34a97f940e269694faaf28716e57c786
+      internalID: -3078155220605740540
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rory_Spritesheet_Jump_23
+      name: Rory_Spritesheet_Jump_4
       rect:
         serializedVersion: 2
         x: 144
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d703dc3944bf9de46af251cf1f68f838
+      internalID: -7323555006463707289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rory_Spritesheet_Jump_5
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64645f7e9540467478aec0bff947ce2f
+      internalID: 7954262837694447342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rory_Spritesheet_Jump_6
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2600291c5dbfc4aa8cc484ae604ab5
+      internalID: -6471131246122719407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rory_Spritesheet_Jump_7
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38786857beb742d409b5eb45a60c7b59
+      internalID: 4458181935190698039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rory_Spritesheet_Jump_8
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 48
         width: 48
         height: 48
@@ -386,39 +470,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4516c842c905954fb83dff28ec03eb5
-      internalID: -1816776158
+      spriteID: 2bae0a59752eddf478583b2c69651206
+      internalID: -3331428993567921258
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rory_Spritesheet_Jump_30
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: db694ab300c185a4c8e171dbb41d494d
-      internalID: -394560130
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rory_Spritesheet_Jump_31
+      name: Rory_Spritesheet_Jump_9
       rect:
         serializedVersion: 2
         x: 48
-        y: 0
+        y: 48
         width: 48
         height: 48
       alignment: 0
@@ -428,8 +491,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a418e5360f5ea9541824ff08c6b8865f
-      internalID: -1757101725
+      spriteID: d803269511465dd418689011eecef066
+      internalID: 7794922770489652866
       vertices: []
       indices: 
       edges: []
@@ -449,42 +512,20 @@ TextureImporter:
       Rory_Spritesheet_Jump_0: -1579336789209396513
       Rory_Spritesheet_Jump_4: -7323555006463707289
       Rory_Spritesheet_Jump_7: 4458181935190698039
-      Rory_Spritesheet_Jump_21: -1651412896
-      Rory_Spritesheet_Jump_22: -21968412
-      Rory_Spritesheet_Jump_39: 1963850496
-      Rory_Spritesheet_Jump_38: 798217282
-      Rory_Spritesheet_Jump_30: -394560130
-      Rory_Spritesheet_Jump_20: 1322609058
-      Rory_Spritesheet_Jump_17: -105016605
-      Rory_Spritesheet_Jump_27: 1167008202
-      Rory_Spritesheet_Jump_25: 1120598781
       Rory_Spritesheet_Jump_10: 1217882565500321966
-      Rory_Spritesheet_Jump_24: -800581632
       Rory_Spritesheet_Jump_6: -6471131246122719407
-      Rory_Spritesheet_Jump_34: 653234258
-      Rory_Spritesheet_Jump_19: 1752328531
-      Rory_Spritesheet_Jump_32: -974870715
       Rory_Spritesheet_Jump_2: -2625558050170564887
       Rory_Spritesheet_Jump_8: -3331428993567921258
-      Rory_Spritesheet_Jump_26: -26595571
       Rory_Spritesheet_Jump_11: -7823363083234023609
-      Rory_Spritesheet_Jump_35: 1586422735
       Rory_Spritesheet_Jump_3: -3078155220605740540
       Rory_Spritesheet_Jump_16: 186973226
-      Rory_Spritesheet_Jump_36: -71098723
-      Rory_Spritesheet_Jump_29: 1430588062
-      Rory_Spritesheet_Jump_37: 142304297
-      Rory_Spritesheet_Jump_31: -1757101725
       Rory_Spritesheet_Jump_5: 7954262837694447342
       Rory_Spritesheet_Jump_9: 7794922770489652866
       Rory_Spritesheet_Jump_12: 1836288172
       Rory_Spritesheet_Jump_15: 1186718146
-      Rory_Spritesheet_Jump_28: 1892359610
-      Rory_Spritesheet_Jump_18: -1239910767
       Rory_Spritesheet_Jump_1: 3668477185906637178
-      Rory_Spritesheet_Jump_23: -1816776158
+      Rory_Spritesheet_Jump_17: -105016605
       Rory_Spritesheet_Jump_13: -921625084
-      Rory_Spritesheet_Jump_33: 413595915
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

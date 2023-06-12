@@ -29,7 +29,6 @@ public class AdamantineThresherController : MonoBehaviour
     public float shotCounter, timeBetweenShots;
     public Transform shotPoint;
     public float distanceAttacks;
-    private bool isTongueAttacking, isShooting = false;
 
     private PlayerController thePlayer;
     #endregion
@@ -66,8 +65,6 @@ public class AdamantineThresherController : MonoBehaviour
                 theRB.velocity = new Vector2(moveSpeed, theRB.velocity.y);
                 transform.localScale = new Vector3(-1f, 1f, 1f);
                 hasJumped = false;
-                isTongueAttacking = false;
-                isShooting = false;
             }
             else
             {
@@ -75,8 +72,6 @@ public class AdamantineThresherController : MonoBehaviour
                 theRB.velocity = new Vector2(-moveSpeed, theRB.velocity.y);
                 transform.localScale = Vector3.one;
                 hasJumped = false;
-                isTongueAttacking = false;
-                isShooting = false;
             }
 
             if (transform.position.y < jumpPoints[currentJumpPoint].position.y - 1.5f && theRB.velocity.y < .5f)
@@ -137,15 +132,12 @@ public class AdamantineThresherController : MonoBehaviour
         {
             if (Vector3.Distance(transform.position, thePlayer.transform.position) < distanceAttacks)
             {
-                isTongueAttacking = true;
-                isShooting = false;
+                shotCounter = timeBetweenShots;
                 anim.SetTrigger("isTongueAttacking");
                 shotCounter = timeBetweenShots;
             }
             else
             {
-                isShooting = true;
-                isTongueAttacking = false;
                 shotCounter -= Time.deltaTime;
                 jumpCounter = timeBetweenJumps;
             }

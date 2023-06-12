@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
     #region VARIABLES
     public Rigidbody2D theRB;
     public float gravity;
+    public bool isUsingElevator;
 
     [Header("Movement")]
     public float moveSpeed;
@@ -55,9 +56,10 @@ public class PlayerController : MonoBehaviour
     public GameObject standingShoot;
     public GameObject crouchingShoot;
     public GameObject crawlingShoot;
-    private bool isStanding;
-    private bool isCrouching;
-    private bool isCrawling;
+    public GameObject staticShoot;
+    public bool isStanding;
+    public bool isCrouching;
+    public bool isCrawling;
     private float crouchButtonPress;
     public float crouchButtonPressLimit;
 
@@ -104,6 +106,24 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         gravity = theRB.gravityScale;
+
+        if (isUsingElevator == true)
+        {
+            standingShoot.SetActive(false);
+            crouchingShoot.SetActive(false);
+            crawlingShoot.SetActive(false);
+            isStanding = false;
+            isCrouching = false;
+            isCrawling = false;
+            staticShoot.SetActive(true);
+            crouchButtonPress = 0f;
+        }
+        else if (isCrouching == false && isCrawling == false)
+        {
+            standingShoot.SetActive(true);
+            isStanding = true;
+            staticShoot.SetActive(false);
+        }
 
         if (canMove && Time.timeScale != 0)
         {
@@ -192,6 +212,17 @@ public class PlayerController : MonoBehaviour
             velocity = theRB.velocity.x;
             #endregion
 
+            #region DIRECTION CHANGE
+            if (theRB.velocity.x < -0.1f)
+            {
+                transform.localScale = new Vector3(-1f, 1f, 1f);
+            }
+            else if (theRB.velocity.x > 0.1f)
+            {
+                transform.localScale = Vector3.one;
+            }
+            #endregion
+
             #region GROUND CHECK
             isOnGround = Physics2D.OverlapCircle(groundPoint.position, .2f, whatIsGround);
             isInWater = Physics2D.OverlapCircle(groundPoint.position, .2f, whatIsWater);
@@ -275,21 +306,10 @@ public class PlayerController : MonoBehaviour
                 {
                     if (Input.GetButtonDown("Fire1"))
                     {
-                        if (isOnGround && theRB.velocity.x == 0f)
-                        {
-                            anim.SetTrigger("shoot");
-                            Instantiate(shotToFire, shotPoint.position, shotPoint.rotation).moveDir = new Vector2(transform.localScale.x, 0f);
+                        anim.SetTrigger("shoot");
+                        Instantiate(shotToFire, shotPoint.position, shotPoint.rotation).moveDir = new Vector2(transform.localScale.x, 0f);
 
-                            shotCounter = shotDelay;
-                        }
-                        /*
-                        if (!isOnGround && moveSpeed < jumpThreshold)
-                        {
-                            anim.SetTrigger("jumpShoot");
-                            Instantiate(shotToFire, shotPoint.position, shotPoint.rotation).moveDir = new Vector2(transform.localScale.x, 0f);
-
-                            shotCounter = shotDelay;
-                        }*/
+                        shotCounter = shotDelay;
                     }
                 }
                 else if (isCrouching)
@@ -353,7 +373,8 @@ public class PlayerController : MonoBehaviour
             }
             #endregion
 
-            #region DASH & DIRECTION
+
+            /*#region DASH
             if (dashRechargeCounter > 0)
             {
                 dashRechargeCounter -= Time.deltaTime;
@@ -382,20 +403,7 @@ public class PlayerController : MonoBehaviour
 
                 dashRechargeCounter = waitAfterDashing;
             }
-            else
-            {
-                #region DIRECTION CHANGE
-                if (theRB.velocity.x < -0.1f)
-                {
-                    transform.localScale = new Vector3(-1f, 1f, 1f);
-                }
-                else if (theRB.velocity.x > 0.1f)
-                {
-                    transform.localScale = Vector3.one;
-                }
-                #endregion
-            }
-            #endregion
+            #endregion*/
 
             #region ANIMATIONS
             if (standingShoot.activeSelf)

@@ -132,4 +132,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   exitPoint: {fileID: 511220197722099038}
   movePlayerSpeed: 0
-  levelToLoad: Biome1_9
+  levelToLoad: 

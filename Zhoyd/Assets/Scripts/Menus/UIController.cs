@@ -9,6 +9,19 @@ public class UIController : MonoBehaviour
 
     public static UIController instance;
 
+    #region VARIABLES
+    public Slider healthSlider;
+    public Image fadeScreen;
+    public float fadeSpeed = 2;
+    private bool fadingToBlack, fadingFromBlack;
+
+    public string mainMenuScene;
+    public GameObject pauseScreen;
+    public GameObject options, arrowsOptionsList;
+    public GameObject[] arrowOptions;
+    private int i;
+    #endregion
+
     private void Awake()
     {
         if (instance == null)
@@ -21,17 +34,6 @@ public class UIController : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
-    public Slider healthSlider;
-    public Image fadeScreen;
-    public float fadeSpeed = 2;
-    private bool fadingToBlack, fadingFromBlack;
-
-    public string mainMenuScene;
-    public GameObject pauseScreen;
-    public GameObject options, arrowsOptionsList;
-    public GameObject[] arrowOptions;
-    private int i;
 
     // Start is called before the first frame update
     void Start()
@@ -50,7 +52,8 @@ public class UIController : MonoBehaviour
             {
                 fadingToBlack = false;
             }
-        } else if (fadingFromBlack)
+        } 
+        else if (fadingFromBlack)
         {
             fadeScreen.color = new Color(fadeScreen.color.r, fadeScreen.color.g, fadeScreen.color.b, Mathf.MoveTowards(fadeScreen.color.a, 0f, fadeSpeed * Time.deltaTime));
 

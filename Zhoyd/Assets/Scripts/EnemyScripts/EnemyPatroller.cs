@@ -12,6 +12,12 @@ public class EnemyPatroller : MonoBehaviour
     private float waitCounter;
 
     public Rigidbody2D theRB;
+
+    public bool isHorizontal;
+    public bool isVertical;
+    public bool isFacingRight;
+    public bool isFacingLeft;
+    public bool isFacingUp;
     #endregion
 
     // Start is called before the first frame update
@@ -29,34 +35,101 @@ public class EnemyPatroller : MonoBehaviour
     void Update()
     {
         #region PATROL
-        if (Mathf.Abs(transform.position.x - patrolPoints[currentPatrolPoint].position.x) > 0.2f)
-        {
-            if (transform.position.x < patrolPoints[currentPatrolPoint].position.x)
+            #region HORIZONTAL
+            if (isHorizontal == true)
             {
-                theRB.velocity = new Vector2(moveSpeed, theRB.velocity.y);
-                transform.localScale = new Vector3(-1f, 1f, 1f);
-            } 
-            else
-            {
-                theRB.velocity = new Vector2(-moveSpeed, theRB.velocity.y);
-                transform.localScale = Vector3.one;
-            }
-        } 
-        else
-        {
-            theRB.velocity = new Vector2(0f, theRB.velocity.y);
-            waitCounter -= Time.deltaTime;
-            if (waitCounter <= 0)
-            {
-                waitCounter = waitAtPoint;
-                currentPatrolPoint++;
-
-                if (currentPatrolPoint >= patrolPoints.Length)
+                if (Mathf.Abs(transform.position.x - patrolPoints[currentPatrolPoint].position.x) > 0.2f)
                 {
-                    currentPatrolPoint = 0;
+                    if (transform.position.x < patrolPoints[currentPatrolPoint].position.x)
+                    {
+                        theRB.velocity = new Vector2(moveSpeed, theRB.velocity.y);
+                        if (isFacingUp == true)
+                        {
+                            transform.localScale = new Vector3(1f, -1f, 1f);
+                        }
+                        else
+                        {
+                            transform.localScale = new Vector3(-1f, 1f, 1f);
+                        }
+                    }
+                    else
+                    {
+                        theRB.velocity = new Vector2(-moveSpeed, theRB.velocity.y);
+                        if (isFacingUp)
+                        {
+                            transform.localScale = new Vector3(-1f, -1f, 1f);
+                        }
+                        else
+                        {
+                            transform.localScale = Vector3.one;
+                        }
+                    }
+                }
+                else
+                {
+                    theRB.velocity = new Vector2(0f, theRB.velocity.y);
+                    waitCounter -= Time.deltaTime;
+                    if (waitCounter <= 0)
+                    {
+                        waitCounter = waitAtPoint;
+                        currentPatrolPoint++;
+
+                        if (currentPatrolPoint >= patrolPoints.Length)
+                        {
+                            currentPatrolPoint = 0;
+                        }
+                    }
                 }
             }
-        }
+            #endregion
+
+            #region VERTICAL
+            if (isVertical)
+            {
+                if (Mathf.Abs(transform.position.y - patrolPoints[currentPatrolPoint].position.y) > 0.2f)
+                {
+                    if (transform.position.y < patrolPoints[currentPatrolPoint].position.y)
+                    {
+                        theRB.velocity = new Vector2(theRB.velocity.x, moveSpeed);
+                        if (isFacingLeft == true)
+                        {
+                            transform.localScale = new Vector3(1f, -1f, 1f);
+                        }
+                        else if (isFacingRight == true)
+                        {
+                        transform.localScale = new Vector3(-1f, 1f, 1f);
+                        }
+                    }
+                    else
+                    {
+                        theRB.velocity = new Vector2(theRB.velocity.x, -moveSpeed);
+                        if (isFacingLeft == true)
+                        {
+                            transform.localScale = new Vector3(-1f, -1f, 1f);
+                        }
+                        else if (isFacingRight == true)
+                        {
+                        transform.localScale = Vector3.one;
+                    }
+                    }
+                }
+                else
+                {
+                    theRB.velocity = new Vector2(theRB.velocity.x, 0f);
+                    waitCounter -= Time.deltaTime;
+                    if (waitCounter <= 0)
+                    {
+                        waitCounter = waitAtPoint;
+                        currentPatrolPoint++;
+
+                        if (currentPatrolPoint >= patrolPoints.Length)
+                        {
+                            currentPatrolPoint = 0;
+                        }
+                    }
+                }
+            }
+            #endregion
         #endregion
     }
 }
