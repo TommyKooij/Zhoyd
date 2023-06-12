@@ -1,0 +1,2698 @@
+fileFormatVersion: 2
+guid: de3db413e08b44449bd730673a5f1a12
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2473552219724841352
+    second: TilesetBiome1_RedSoil_0
+  - first:
+      213: -6340322222089837633
+    second: TilesetBiome1_RedSoil_1
+  - first:
+      213: 5159946731845638127
+    second: TilesetBiome1_RedSoil_2
+  - first:
+      213: -5559805939899866051
+    second: TilesetBiome1_RedSoil_3
+  - first:
+      213: 6934980482754127188
+    second: TilesetBiome1_RedSoil_4
+  - first:
+      213: 2163700158394383490
+    second: TilesetBiome1_RedSoil_5
+  - first:
+      213: -3438224668429147495
+    second: TilesetBiome1_RedSoil_6
+  - first:
+      213: 2445330477244108819
+    second: TilesetBiome1_RedSoil_7
+  - first:
+      213: 8725847953252665795
+    second: TilesetBiome1_RedSoil_8
+  - first:
+      213: -2442634965361003251
+    second: TilesetBiome1_RedSoil_9
+  - first:
+      213: -7310799047249361742
+    second: TilesetBiome1_RedSoil_10
+  - first:
+      213: 9130178479582768507
+    second: TilesetBiome1_RedSoil_11
+  - first:
+      213: -6920151937615181022
+    second: TilesetBiome1_RedSoil_12
+  - first:
+      213: -4601519208047346054
+    second: TilesetBiome1_RedSoil_13
+  - first:
+      213: 6830384603058213849
+    second: TilesetBiome1_RedSoil_14
+  - first:
+      213: -3123098104895285641
+    second: TilesetBiome1_RedSoil_15
+  - first:
+      213: 261911529309575379
+    second: TilesetBiome1_RedSoil_16
+  - first:
+      213: 7966359328027610151
+    second: TilesetBiome1_RedSoil_17
+  - first:
+      213: -388599852382361176
+    second: TilesetBiome1_RedSoil_18
+  - first:
+      213: 2328134256927572670
+    second: TilesetBiome1_RedSoil_19
+  - first:
+      213: -3547757164644652429
+    second: TilesetBiome1_RedSoil_20
+  - first:
+      213: -4627244034508551505
+    second: TilesetBiome1_RedSoil_21
+  - first:
+      213: -9171911994177240057
+    second: TilesetBiome1_RedSoil_22
+  - first:
+      213: 3765758148624983450
+    second: TilesetBiome1_RedSoil_23
+  - first:
+      213: -4667006125790642855
+    second: TilesetBiome1_RedSoil_24
+  - first:
+      213: 9097813806268209391
+    second: TilesetBiome1_RedSoil_25
+  - first:
+      213: 5679029102172228447
+    second: TilesetBiome1_RedSoil_26
+  - first:
+      213: 2637147595843044947
+    second: TilesetBiome1_RedSoil_27
+  - first:
+      213: -3865234291635319317
+    second: TilesetBiome1_RedSoil_28
+  - first:
+      213: 2409088126174928632
+    second: TilesetBiome1_RedSoil_29
+  - first:
+      213: 3828867136241211405
+    second: TilesetBiome1_RedSoil_30
+  - first:
+      213: -696909670943078883
+    second: TilesetBiome1_RedSoil_31
+  - first:
+      213: 1102522293675006157
+    second: TilesetBiome1_RedSoil_32
+  - first:
+      213: -7885624496903858320
+    second: TilesetBiome1_RedSoil_33
+  - first:
+      213: -1863692997889363171
+    second: TilesetBiome1_RedSoil_34
+  - first:
+      213: -5736636784712081012
+    second: TilesetBiome1_RedSoil_35
+  - first:
+      213: 5309911732726544556
+    second: TilesetBiome1_RedSoil_36
+  - first:
+      213: -6941790420360342846
+    second: TilesetBiome1_RedSoil_37
+  - first:
+      213: -2271805093438700126
+    second: TilesetBiome1_RedSoil_38
+  - first:
+      213: -2238401828638526323
+    second: TilesetBiome1_RedSoil_39
+  - first:
+      213: 3671491797456621396
+    second: TilesetBiome1_RedSoil_40
+  - first:
+      213: 3407680595580880193
+    second: TilesetBiome1_RedSoil_41
+  - first:
+      213: -6813612872150492854
+    second: TilesetBiome1_RedSoil_42
+  - first:
+      213: 7465665872368915066
+    second: TilesetBiome1_RedSoil_43
+  - first:
+      213: 5342650232169813611
+    second: TilesetBiome1_RedSoil_44
+  - first:
+      213: -8543450172084488880
+    second: TilesetBiome1_RedSoil_45
+  - first:
+      213: 9154173985761998532
+    second: TilesetBiome1_RedSoil_46
+  - first:
+      213: -7622800480496047738
+    second: TilesetBiome1_RedSoil_47
+  - first:
+      213: -8350060047482756492
+    second: TilesetBiome1_RedSoil_48
+  - first:
+      213: 8284347337926611069
+    second: TilesetBiome1_RedSoil_49
+  - first:
+      213: 9135621568071193725
+    second: TilesetBiome1_RedSoil_50
+  - first:
+      213: 7128149465443016202
+    second: TilesetBiome1_RedSoil_51
+  - first:
+      213: 5913381804708982883
+    second: TilesetBiome1_RedSoil_52
+  - first:
+      213: -8416789668251186479
+    second: TilesetBiome1_RedSoil_53
+  - first:
+      213: 2124391740132454590
+    second: TilesetBiome1_RedSoil_54
+  - first:
+      213: -7837975929786443113
+    second: TilesetBiome1_RedSoil_55
+  - first:
+      213: 7377109040286102531
+    second: TilesetBiome1_RedSoil_56
+  - first:
+      213: -3369059313227092176
+    second: TilesetBiome1_RedSoil_57
+  - first:
+      213: 3612426671249641990
+    second: TilesetBiome1_RedSoil_58
+  - first:
+      213: 1389758399140971634
+    second: TilesetBiome1_RedSoil_59
+  - first:
+      213: -7242417249644986457
+    second: TilesetBiome1_RedSoil_60
+  - first:
+      213: 3185278816727018410
+    second: TilesetBiome1_RedSoil_61
+  - first:
+      213: 3286251051923037056
+    second: TilesetBiome1_RedSoil_62
+  - first:
+      213: -1981382085819925948
+    second: TilesetBiome1_RedSoil_63
+  - first:
+      213: -5177041442231493448
+    second: TilesetBiome1_RedSoil_64
+  - first:
+      213: 8322277364032673405
+    second: TilesetBiome1_RedSoil_65
+  - first:
+      213: -5755519916083908862
+    second: TilesetBiome1_RedSoil_66
+  - first:
+      213: 879490301991830331
+    second: TilesetBiome1_RedSoil_67
+  - first:
+      213: 5339957305399818784
+    second: TilesetBiome1_RedSoil_68
+  - first:
+      213: -1358928836409536710
+    second: TilesetBiome1_RedSoil_69
+  - first:
+      213: -7345184810083993824
+    second: TilesetBiome1_RedSoil_70
+  - first:
+      213: -6511021035658199435
+    second: TilesetBiome1_RedSoil_71
+  - first:
+      213: -4325631490518295401
+    second: TilesetBiome1_RedSoil_72
+  - first:
+      213: 7365299358941103686
+    second: TilesetBiome1_RedSoil_73
+  - first:
+      213: 551418718779658755
+    second: TilesetBiome1_RedSoil_74
+  - first:
+      213: -4101874186577984876
+    second: TilesetBiome1_RedSoil_75
+  - first:
+      213: -81447707065047903
+    second: TilesetBiome1_RedSoil_76
+  - first:
+      213: 5719298004345164375
+    second: TilesetBiome1_RedSoil_77
+  - first:
+      213: -5206094730762448294
+    second: TilesetBiome1_RedSoil_78
+  - first:
+      213: -4880147841306889958
+    second: TilesetBiome1_RedSoil_79
+  - first:
+      213: -2999570743736013172
+    second: TilesetBiome1_RedSoil_80
+  - first:
+      213: 2143987575547035256
+    second: TilesetBiome1_RedSoil_81
+  - first:
+      213: -6598904600308118107
+    second: TilesetBiome1_RedSoil_82
+  - first:
+      213: -4401068008756371335
+    second: TilesetBiome1_RedSoil_83
+  - first:
+      213: -864868233132645199
+    second: TilesetBiome1_RedSoil_84
+  - first:
+      213: 9170994614786727587
+    second: TilesetBiome1_RedSoil_85
+  - first:
+      213: 2894260425999902080
+    second: TilesetBiome1_RedSoil_86
+  - first:
+      213: 7199917389140047974
+    second: TilesetBiome1_RedSoil_87
+  - first:
+      213: -3637582786986055278
+    second: TilesetBiome1_RedSoil_88
+  - first:
+      213: -1045434338159107554
+    second: TilesetBiome1_RedSoil_89
+  - first:
+      213: -6473731711646103549
+    second: TilesetBiome1_RedSoil_90
+  - first:
+      213: -4427857565560735473
+    second: TilesetBiome1_RedSoil_91
+  - first:
+      213: 3258037792778866923
+    second: TilesetBiome1_RedSoil_92
+  - first:
+      213: -3060502968876340910
+    second: TilesetBiome1_RedSoil_93
+  - first:
+      213: 873517893164354731
+    second: TilesetBiome1_RedSoil_94
+  - first:
+      213: -3599187038410295526
+    second: TilesetBiome1_RedSoil_95
+  - first:
+      213: -923189387239482964
+    second: TilesetBiome1_RedSoil_96
+  - first:
+      213: 3631352596573048014
+    second: TilesetBiome1_RedSoil_97
+  - first:
+      213: 7806049939651144877
+    second: TilesetBiome1_RedSoil_98
+  - first:
+      213: -8234813903242806998
+    second: TilesetBiome1_RedSoil_99
+  - first:
+      213: -2061960523593325578
+    second: TilesetBiome1_RedSoil_100
+  - first:
+      213: 4370144791114643963
+    second: TilesetBiome1_RedSoil_101
+  - first:
+      213: 780434176296771202
+    second: TilesetBiome1_RedSoil_102
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87efbe19c5d2cadd0800000000000000
+      internalID: -2473552219724841352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3e1de0886a208a0800000000000000
+      internalID: -6340322222089837633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe7d89bc630db9740800000000000000
+      internalID: 5159946731845638127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34692c64f997d2b0800000000000000
+      internalID: -5559805939899866051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455a3d681000e3060800000000000000
+      internalID: 6934980482754127188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28cbd8d84d1070e10800000000000000
+      internalID: 2163700158394383490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992ab4c61e8f840d0800000000000000
+      internalID: -3438224668429147495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3105296fc1f8fe120800000000000000
+      internalID: 2445330477244108819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9c1b16b70781970800000000000000
+      internalID: 8725847953252665795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0575bdc0740a1ed0800000000000000
+      internalID: -2442634965361003251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b400743003da8a90800000000000000
+      internalID: -7310799047249361742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d627314f8e4be70800000000000000
+      internalID: 9130178479582768507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b47be2a7ea6ff90800000000000000
+      internalID: -6920151937615181022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e733109ae1420c0800000000000000
+      internalID: -4601519208047346054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_14
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d315988b966ace50800000000000000
+      internalID: 6830384603058213849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_15
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776550b02d688a4d0800000000000000
+      internalID: -3123098104895285641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_16
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d89313f52f72a300800000000000000
+      internalID: 261911529309575379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_17
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c843ce9913e8e60800000000000000
+      internalID: 7966359328027610151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9eafe3e7a6b9af0800000000000000
+      internalID: -388599852382361176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2069d85c13f4020800000000000000
+      internalID: 2328134256927572670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a2204d7a5d3cec0800000000000000
+      internalID: -3547757164644652429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa821a111ab8cfb0800000000000000
+      internalID: -4627244034508551505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704cbebd2a2d6b080800000000000000
+      internalID: -9171911994177240057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_23
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9523d69519a24430800000000000000
+      internalID: 3765758148624983450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_24
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d3dabc7a67b3fb0800000000000000
+      internalID: -4667006125790642855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_25
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8d24b547de14e70800000000000000
+      internalID: 9097813806268209391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_26
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5bc41031e6ffce40800000000000000
+      internalID: 5679029102172228447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356008624c7099420800000000000000
+      internalID: 2637147595843044947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed0b6104edeb5ac0800000000000000
+      internalID: -3865234291635319317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_29
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe944903ecce6120800000000000000
+      internalID: 2409088126174928632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0813dbcf5ed22530800000000000000
+      internalID: 3828867136241211405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_31
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1647eeb8541456f0800000000000000
+      internalID: -696909670943078883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_32
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc892774f22fc4f00800000000000000
+      internalID: 1102522293675006157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_33
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0775de5cc42a09290800000000000000
+      internalID: -7885624496903858320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_34
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13fb6ab715d226e0800000000000000
+      internalID: -1863692997889363171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_35
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c812cc10d3f5360b0800000000000000
+      internalID: -5736636784712081012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca838d9769890b940800000000000000
+      internalID: 5309911732726544556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c25631546ec9af90800000000000000
+      internalID: -6941790420360342846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5c9a6dd4de870e0800000000000000
+      internalID: -2271805093438700126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_39
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d847a6b75699fe0e0800000000000000
+      internalID: -2238401828638526323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_40
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f892f5652c3f230800000000000000
+      internalID: 3671491797456621396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_41
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145079f62738a4f20800000000000000
+      internalID: 3407680595580880193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_42
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49d07e513f2171a0800000000000000
+      internalID: -6813612872150492854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_43
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a725e4e5e8f5b9760800000000000000
+      internalID: 7465665872368915066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_44
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66d3af5418e42a40800000000000000
+      internalID: 5342650232169813611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_45
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05577a865519f6980800000000000000
+      internalID: -8543450172084488880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c637793db82a0f70800000000000000
+      internalID: 9154173985761998532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_47
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6892b5ea95f563690800000000000000
+      internalID: -7622800480496047738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_48
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472eb9890a0ae1c80800000000000000
+      internalID: -8350060047482756492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_49
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d709111f20ae7f270800000000000000
+      internalID: 8284347337926611069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_50
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74d74fd96f38ce70800000000000000
+      internalID: 9135621568071193725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_51
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e1f991c264ce260800000000000000
+      internalID: 7128149465443016202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_52
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360ffe2cb6d801250800000000000000
+      internalID: 5913381804708982883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_53
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dac5ba046e813b80800000000000000
+      internalID: -8416789668251186479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_54
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb07e5a380b5b7d10800000000000000
+      internalID: 2124391740132454590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_55
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a54035b6ae93390800000000000000
+      internalID: -7837975929786443113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30473972691c06660800000000000000
+      internalID: 7377109040286102531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_57
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03fa0e79762be31d0800000000000000
+      internalID: -3369059313227092176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_58
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6025bf40beae12230800000000000000
+      internalID: 3612426671249641990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_59
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274c96896e9694310800000000000000
+      internalID: 1389758399140971634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_60
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7afbfb722e3cd7b90800000000000000
+      internalID: -7242417249644986457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_61
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab279d1532643c20800000000000000
+      internalID: 3185278816727018410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_62
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b50a0abeb1b9d20800000000000000
+      internalID: 3286251051923037056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_63
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a7162ad77b084e0800000000000000
+      internalID: -1981382085819925948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_64
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bcd058cc347728b0800000000000000
+      internalID: -5177041442231493448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_65
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7611755b2bae7370800000000000000
+      internalID: 8322277364032673405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20fe12061294020b0800000000000000
+      internalID: -5755519916083908862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_67
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33cf9915c3943c00800000000000000
+      internalID: 879490301991830331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_68
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02abb1080e65b1a40800000000000000
+      internalID: 5339957305399818784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_69
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f46c65c6d142de0800000000000000
+      internalID: -1358928836409536710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_70
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0273959e459a01a90800000000000000
+      internalID: -7345184810083993824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_71
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e3f7c6dd434a5a0800000000000000
+      internalID: -6511021035658199435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_72
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79cd96ad31548f3c0800000000000000
+      internalID: -4325631490518295401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_73
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646c8127ebcc63660800000000000000
+      internalID: 7365299358941103686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_74
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302dc57376807a700800000000000000
+      internalID: 551418718779658755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492cca3f8273317c0800000000000000
+      internalID: -4101874186577984876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_76
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a42e90fdb3aedef0800000000000000
+      internalID: -81447707065047903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_77
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75218999b370f5f40800000000000000
+      internalID: 5719298004345164375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_78
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a521fd9ec6c30c7b0800000000000000
+      internalID: -5206094730762448294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_79
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11738bf46b364cb0800000000000000
+      internalID: -4880147841306889958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_80
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ee5fc0d426f56d0800000000000000
+      internalID: -2999570743736013172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_81
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ef4533759f0cd10800000000000000
+      internalID: 2143987575547035256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_82
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad81ff7a3bfb64a0800000000000000
+      internalID: -6598904600308118107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_83
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970adb1c6f34ce2c0800000000000000
+      internalID: -4401068008756371335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_84
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4eb9a9cee5ff3f0800000000000000
+      internalID: -864868233132645199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae126b130be54f70800000000000000
+      internalID: 9170994614786727587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_86
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085e133e58a7a2820800000000000000
+      internalID: 2894260425999902080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_87
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668b9d7f7be3be360800000000000000
+      internalID: 7199917389140047974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299ee9c5ab5b48dc0800000000000000
+      internalID: -3637582786986055278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_89
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12e706220fdd71f0800000000000000
+      internalID: -1045434338159107554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_90
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308072cbe4fa826a0800000000000000
+      internalID: -6473731711646103549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09f9b001071d82c0800000000000000
+      internalID: -4427857565560735473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_92
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0d1675c10e63d20800000000000000
+      internalID: 3258037792778866923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_93
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259e81ad3c8e685d0800000000000000
+      internalID: -3060502968876340910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_94
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac420f45eb5f1c00800000000000000
+      internalID: 873517893164354731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_95
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a173d57357e1d0ec0800000000000000
+      internalID: -3599187038410295526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_96
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca91e21c42c2033f0800000000000000
+      internalID: -923189387239482964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_97
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecccde462f7256230800000000000000
+      internalID: 3631352596573048014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_98
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dacadd7df09a45c60800000000000000
+      internalID: 7806049939651144877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29b3c9826018bd80800000000000000
+      internalID: -8234813903242806998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_100
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3675a14d17263e0800000000000000
+      internalID: -2061960523593325578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_101
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf97963988fd5ac30800000000000000
+      internalID: 4370144791114643963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesetBiome1_RedSoil_102
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e5eb89fb8a4da00800000000000000
+      internalID: 780434176296771202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      TilesetBiome1_RedSoil_11: 9130178479582768507
+      TilesetBiome1_RedSoil_17: 7966359328027610151
+      TilesetBiome1_RedSoil_55: -7837975929786443113
+      TilesetBiome1_RedSoil_4: 6934980482754127188
+      TilesetBiome1_RedSoil_19: 2328134256927572670
+      TilesetBiome1_RedSoil_58: 3612426671249641990
+      TilesetBiome1_RedSoil_10: -7310799047249361742
+      TilesetBiome1_RedSoil_28: -3865234291635319317
+      TilesetBiome1_RedSoil_20: -3547757164644652429
+      TilesetBiome1_RedSoil_61: 3185278816727018410
+      TilesetBiome1_RedSoil_90: -6473731711646103549
+      TilesetBiome1_RedSoil_37: -6941790420360342846
+      TilesetBiome1_RedSoil_93: -3060502968876340910
+      TilesetBiome1_RedSoil_66: -5755519916083908862
+      TilesetBiome1_RedSoil_65: 8322277364032673405
+      TilesetBiome1_RedSoil_101: 4370144791114643963
+      TilesetBiome1_RedSoil_23: 3765758148624983450
+      TilesetBiome1_RedSoil_84: -864868233132645199
+      TilesetBiome1_RedSoil_46: 9154173985761998532
+      TilesetBiome1_RedSoil_22: -9171911994177240057
+      TilesetBiome1_RedSoil_39: -2238401828638526323
+      TilesetBiome1_RedSoil_69: -1358928836409536710
+      TilesetBiome1_RedSoil_72: -4325631490518295401
+      TilesetBiome1_RedSoil_49: 8284347337926611069
+      TilesetBiome1_RedSoil_32: 1102522293675006157
+      TilesetBiome1_RedSoil_21: -4627244034508551505
+      TilesetBiome1_RedSoil_29: 2409088126174928632
+      TilesetBiome1_RedSoil_102: 780434176296771202
+      TilesetBiome1_RedSoil_27: 2637147595843044947
+      TilesetBiome1_RedSoil_7: 2445330477244108819
+      TilesetBiome1_RedSoil_70: -7345184810083993824
+      TilesetBiome1_RedSoil_71: -6511021035658199435
+      TilesetBiome1_RedSoil_73: 7365299358941103686
+      TilesetBiome1_RedSoil_41: 3407680595580880193
+      TilesetBiome1_RedSoil_78: -5206094730762448294
+      TilesetBiome1_RedSoil_12: -6920151937615181022
+      TilesetBiome1_RedSoil_82: -6598904600308118107
+      TilesetBiome1_RedSoil_30: 3828867136241211405
+      TilesetBiome1_RedSoil_77: 5719298004345164375
+      TilesetBiome1_RedSoil_1: -6340322222089837633
+      TilesetBiome1_RedSoil_52: 5913381804708982883
+      TilesetBiome1_RedSoil_40: 3671491797456621396
+      TilesetBiome1_RedSoil_97: 3631352596573048014
+      TilesetBiome1_RedSoil_6: -3438224668429147495
+      TilesetBiome1_RedSoil_24: -4667006125790642855
+      TilesetBiome1_RedSoil_81: 2143987575547035256
+      TilesetBiome1_RedSoil_5: 2163700158394383490
+      TilesetBiome1_RedSoil_94: 873517893164354731
+      TilesetBiome1_RedSoil_79: -4880147841306889958
+      TilesetBiome1_RedSoil_3: -5559805939899866051
+      TilesetBiome1_RedSoil_13: -4601519208047346054
+      TilesetBiome1_RedSoil_74: 551418718779658755
+      TilesetBiome1_RedSoil_8: 8725847953252665795
+      TilesetBiome1_RedSoil_42: -6813612872150492854
+      TilesetBiome1_RedSoil_68: 5339957305399818784
+      TilesetBiome1_RedSoil_76: -81447707065047903
+      TilesetBiome1_RedSoil_35: -5736636784712081012
+      TilesetBiome1_RedSoil_15: -3123098104895285641
+      TilesetBiome1_RedSoil_2: 5159946731845638127
+      TilesetBiome1_RedSoil_14: 6830384603058213849
+      TilesetBiome1_RedSoil_0: -2473552219724841352
+      TilesetBiome1_RedSoil_34: -1863692997889363171
+      TilesetBiome1_RedSoil_67: 879490301991830331
+      TilesetBiome1_RedSoil_88: -3637582786986055278
+      TilesetBiome1_RedSoil_95: -3599187038410295526
+      TilesetBiome1_RedSoil_51: 7128149465443016202
+      TilesetBiome1_RedSoil_36: 5309911732726544556
+      TilesetBiome1_RedSoil_38: -2271805093438700126
+      TilesetBiome1_RedSoil_50: 9135621568071193725
+      TilesetBiome1_RedSoil_92: 3258037792778866923
+      TilesetBiome1_RedSoil_80: -2999570743736013172
+      TilesetBiome1_RedSoil_85: 9170994614786727587
+      TilesetBiome1_RedSoil_44: 5342650232169813611
+      TilesetBiome1_RedSoil_75: -4101874186577984876
+      TilesetBiome1_RedSoil_96: -923189387239482964
+      TilesetBiome1_RedSoil_98: 7806049939651144877
+      TilesetBiome1_RedSoil_89: -1045434338159107554
+      TilesetBiome1_RedSoil_57: -3369059313227092176
+      TilesetBiome1_RedSoil_43: 7465665872368915066
+      TilesetBiome1_RedSoil_9: -2442634965361003251
+      TilesetBiome1_RedSoil_47: -7622800480496047738
+      TilesetBiome1_RedSoil_26: 5679029102172228447
+      TilesetBiome1_RedSoil_31: -696909670943078883
+      TilesetBiome1_RedSoil_25: 9097813806268209391
+      TilesetBiome1_RedSoil_56: 7377109040286102531
+      TilesetBiome1_RedSoil_62: 3286251051923037056
+      TilesetBiome1_RedSoil_100: -2061960523593325578
+      TilesetBiome1_RedSoil_87: 7199917389140047974
+      TilesetBiome1_RedSoil_53: -8416789668251186479
+      TilesetBiome1_RedSoil_99: -8234813903242806998
+      TilesetBiome1_RedSoil_86: 2894260425999902080
+      TilesetBiome1_RedSoil_33: -7885624496903858320
+      TilesetBiome1_RedSoil_54: 2124391740132454590
+      TilesetBiome1_RedSoil_63: -1981382085819925948
+      TilesetBiome1_RedSoil_91: -4427857565560735473
+      TilesetBiome1_RedSoil_83: -4401068008756371335
+      TilesetBiome1_RedSoil_59: 1389758399140971634
+      TilesetBiome1_RedSoil_18: -388599852382361176
+      TilesetBiome1_RedSoil_45: -8543450172084488880
+      TilesetBiome1_RedSoil_60: -7242417249644986457
+      TilesetBiome1_RedSoil_48: -8350060047482756492
+      TilesetBiome1_RedSoil_16: 261911529309575379
+      TilesetBiome1_RedSoil_64: -5177041442231493448
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,493 @@
+fileFormatVersion: 2
+guid: 10f522b2d29e4dd4f8635713c79cdd66
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1579336789209396513
+    second: Rory_Spritesheet_Jump_0
+  - first:
+      213: 3668477185906637178
+    second: Rory_Spritesheet_Jump_1
+  - first:
+      213: -2625558050170564887
+    second: Rory_Spritesheet_Jump_2
+  - first:
+      213: -3078155220605740540
+    second: Rory_Spritesheet_Jump_3
+  - first:
+      213: -7323555006463707289
+    second: Rory_Spritesheet_Jump_4
+  - first:
+      213: 7954262837694447342
+    second: Rory_Spritesheet_Jump_5
+  - first:
+      213: -6471131246122719407
+    second: Rory_Spritesheet_Jump_6
+  - first:
+      213: 4458181935190698039
+    second: Rory_Spritesheet_Jump_7
+  - first:
+      213: -3331428993567921258
+    second: Rory_Spritesheet_Jump_8
+  - first:
+      213: 7794922770489652866
+    second: Rory_Spritesheet_Jump_9
+  - first:
+      213: 1217882565500321966
+    second: Rory_Spritesheet_Jump_10
+  - first:
+      213: -7823363083234023609
+    second: Rory_Spritesheet_Jump_11
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rory_Spritesheet_Jump_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdac772de81151ae0800000000000000
+      internalID: -1579336789209396513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rory_Spritesheet_Jump_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0c9ce9db9c6e010800000000000000
+      internalID: 1217882565500321966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rory_Spritesheet_Jump_11
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7476eeac9b4dd6390800000000000000
+      internalID: -7823363083234023609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rory_Spritesheet_Jump_12
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5ab6a271433da4788e86e6892c8398
+      internalID: 1836288172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rory_Spritesheet_Jump_13
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95273e03577d5a548a422355c3b43e4a
+      internalID: -921625084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rory_Spritesheet_Jump_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa741476be5b38444a265e5b386f6be6
+      internalID: 1203283551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rory_Spritesheet_Jump_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b7b392725095f4fab3e396dd6b5024
+      internalID: 1186718146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rory_Spritesheet_Jump_16
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffee620a0434699499420a8cc1998975
+      internalID: 186973226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rory_Spritesheet_Jump_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820a4c5543c2ded4b80664089f5835ec
+      internalID: 1322609058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rory_Spritesheet_Jump_21
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605f7032d7b76334ea23490f584c623f
+      internalID: -1651412896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rory_Spritesheet_Jump_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858e1e07dbd17aa4f9be1693262a6c95
+      internalID: -21968412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rory_Spritesheet_Jump_23
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4516c842c905954fb83dff28ec03eb5
+      internalID: -1816776158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rory_Spritesheet_Jump_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db694ab300c185a4c8e171dbb41d494d
+      internalID: -394560130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rory_Spritesheet_Jump_31
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a418e5360f5ea9541824ff08c6b8865f
+      internalID: -1757101725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Rory_Spritesheet_Jump_14: 1203283551
+      Rory_Spritesheet_Jump_0: -1579336789209396513
+      Rory_Spritesheet_Jump_4: -7323555006463707289
+      Rory_Spritesheet_Jump_7: 4458181935190698039
+      Rory_Spritesheet_Jump_21: -1651412896
+      Rory_Spritesheet_Jump_22: -21968412
+      Rory_Spritesheet_Jump_39: 1963850496
+      Rory_Spritesheet_Jump_38: 798217282
+      Rory_Spritesheet_Jump_30: -394560130
+      Rory_Spritesheet_Jump_20: 1322609058
+      Rory_Spritesheet_Jump_17: -105016605
+      Rory_Spritesheet_Jump_27: 1167008202
+      Rory_Spritesheet_Jump_25: 1120598781
+      Rory_Spritesheet_Jump_10: 1217882565500321966
+      Rory_Spritesheet_Jump_24: -800581632
+      Rory_Spritesheet_Jump_6: -6471131246122719407
+      Rory_Spritesheet_Jump_34: 653234258
+      Rory_Spritesheet_Jump_19: 1752328531
+      Rory_Spritesheet_Jump_32: -974870715
+      Rory_Spritesheet_Jump_2: -2625558050170564887
+      Rory_Spritesheet_Jump_8: -3331428993567921258
+      Rory_Spritesheet_Jump_26: -26595571
+      Rory_Spritesheet_Jump_11: -7823363083234023609
+      Rory_Spritesheet_Jump_35: 1586422735
+      Rory_Spritesheet_Jump_3: -3078155220605740540
+      Rory_Spritesheet_Jump_16: 186973226
+      Rory_Spritesheet_Jump_36: -71098723
+      Rory_Spritesheet_Jump_29: 1430588062
+      Rory_Spritesheet_Jump_37: 142304297
+      Rory_Spritesheet_Jump_31: -1757101725
+      Rory_Spritesheet_Jump_5: 7954262837694447342
+      Rory_Spritesheet_Jump_9: 7794922770489652866
+      Rory_Spritesheet_Jump_12: 1836288172
+      Rory_Spritesheet_Jump_15: 1186718146
+      Rory_Spritesheet_Jump_28: 1892359610
+      Rory_Spritesheet_Jump_18: -1239910767
+      Rory_Spritesheet_Jump_1: 3668477185906637178
+      Rory_Spritesheet_Jump_23: -1816776158
+      Rory_Spritesheet_Jump_13: -921625084
+      Rory_Spritesheet_Jump_33: 413595915
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

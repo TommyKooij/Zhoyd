@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Bullet
+  - Boss
+  - Enemy
+  - Wall
+  - Door
+  - Punch
+  - FluxBullet
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - NoCollisions
+  - Water
+  - UI
+  - Ground
+  - Wall
+  - Bullet
+  - Player
+  - Destructible
+  - Pickup
+  - EnemyAttack
+  - FluxBullet
+  - Enemy
+  - Crawl
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: BackgroundImage
+    uniqueID: 3736748803
+    locked: 0
+  - name: BackgroundObject
+    uniqueID: 400490809
+    locked: 0
+  - name: Ground
+    uniqueID: 3172980223
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Wall
+    uniqueID: 3901616391
+    locked: 0
+  - name: Character
+    uniqueID: 2373677865
+    locked: 0
+  - name: Foreground
+    uniqueID: 1948587761
+    locked: 0
+  - name: Water
+    uniqueID: 1078051517
+    locked: 0
+  - name: Hidden
+    uniqueID: 2859552119
+    locked: 0
