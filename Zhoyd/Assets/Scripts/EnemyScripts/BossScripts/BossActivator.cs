@@ -6,20 +6,26 @@ public class BossActivator : MonoBehaviour
 {
     #region VARIABLES
     public GameObject bossToActivate;
-    public GameObject obstacles;
+    public string bossRef;
     #endregion
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Player")
         {
-            if (obstacles != null)
+            if (PlayerPrefs.HasKey(bossRef))
             {
-                obstacles.SetActive(true);
+                if (PlayerPrefs.GetInt(bossRef) != 1)
+                {
+                    bossToActivate.SetActive(true);
+                    gameObject.SetActive(false);
+                }
             }
-
-            bossToActivate.SetActive(true);
-            gameObject.SetActive(false);
+            else
+            {
+                bossToActivate.SetActive(true);
+                gameObject.SetActive(false);
+            }
         }
     }
 }

@@ -35,12 +35,6 @@ public class UIController : MonoBehaviour
         }
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
@@ -77,61 +71,6 @@ public class UIController : MonoBehaviour
                 pauseScreen.SetActive(false);
 
                 Time.timeScale = 1f;
-            }
-        }
-
-        if (pauseScreen.activeInHierarchy && Input.GetKeyDown(KeyCode.DownArrow))
-        {
-            if (i == 4)
-            {
-                arrowOptions[4].SetActive(false);
-                arrowOptions[0].SetActive(true);
-                i = 0;
-            }
-            else
-            {
-                arrowOptions[i].SetActive(false);
-                arrowOptions[i + 1].SetActive(true);
-                i++;
-            }
-        }
-        else if (pauseScreen.activeInHierarchy && Input.GetKeyDown(KeyCode.UpArrow))
-        {
-            if (i == 0)
-            {
-                arrowOptions[0].SetActive(false);
-                arrowOptions[4].SetActive(true);
-                i = 4;
-            }
-            else
-            {
-                arrowOptions[i].SetActive(false);
-                arrowOptions[i - 1].SetActive(true);
-                i--;
-            }
-        }
-
-        if (pauseScreen.activeInHierarchy && Input.GetKeyDown(KeyCode.Space))
-        {
-            if (i == 0)
-            {
-
-            }
-            else if (i == 1)
-            {
-
-            }
-            else if (i == 2)
-            {
-
-            }
-            else if (i == 3)
-            {
-                
-            }
-            else if (i == 4)
-            {
-                MainMenu();
             }
         }
     }

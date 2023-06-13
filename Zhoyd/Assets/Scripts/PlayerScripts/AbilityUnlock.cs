@@ -46,16 +46,19 @@ public class AbilityUnlock : MonoBehaviour
             if (unlockDoubleJump)
             {
                 player.canDoubleJump = true;
+                PlayerPrefs.SetInt("DoubleJumpUnlocked", 1);
             }
 
             if (unlockDash)
             {
                 player.canDash = true;
+                PlayerPrefs.SetInt("DashUnlocked", 1);
             }
 
             if (unlockRockets)
             {
                 player.canShootRocket = true;
+                PlayerPrefs.SetInt("RocketsUnlocked", 1);
             }
             #endregion
 
@@ -80,27 +83,32 @@ public class AbilityUnlock : MonoBehaviour
             if (emeraldAccess)
             {
                 player.hasEmeraldAccess = true;
+                PlayerPrefs.SetInt("EmeraldAccessUnlocked", 1);
             }
 
             if (violetAccess)
             {
                 player.hasVioletAccess = true;
+                PlayerPrefs.SetInt("VioletAccessUnlocked", 1);
             }
 
             if (scarletAccess)
             {
                 player.hasScarletAccess = true;
+                PlayerPrefs.SetInt("ScarletAccessUnlocked", 1);
             }
 
             if (sapphireAccess)
             {
                 player.hasSapphireAccess = true;
+                PlayerPrefs.SetInt("SapphireAccessUnlocked", 1);
             }
 
             //boss access
             if (thresherAccess)
             {
                 player.hasThresherAccess = true;
+                PlayerPrefs.SetInt("ThresherUnlocked", 1);
             }
             #endregion
 

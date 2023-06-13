@@ -32,24 +32,11 @@ public class PlayerHealthController : MonoBehaviour
             Destroy(gameObject);
         }
     }
-/*
-    public void LoadData(GameData data)
-    {
-        this.currentHealth = data.playerHealth;
-    }
-
-    public void SaveData(GameData data)
-    {
-        data.playerHealth = this.currentHealth;
-    }*/
 
     // Start is called before the first frame update
     void Start()
     {
         currentHealth = maxHealth;
-        UIController.instance.UpdateHealth(currentHealth, maxHealth);
-
-        /*player = FindObjectOfType<PlayerController>();*/
     }
 
     // Update is called once per frame
@@ -89,19 +76,9 @@ public class PlayerHealthController : MonoBehaviour
         {
             currentHealth -= damageAmount;
 
-            /*if (player.transform.localScale.x == -1f)
-            {
-                player.theRB.AddForce(transform.right * 100f, ForceMode2D.Impulse);
-            }
-            else
-            {
-                player.theRB.AddForce(transform.right * -100f, ForceMode2D.Impulse);
-            }*/
-
             if (currentHealth <= 0)
             {
                 currentHealth = 0;
-                //gameObject.SetActive(false);
 
                 RespawnController.instance.Respawn();
             }

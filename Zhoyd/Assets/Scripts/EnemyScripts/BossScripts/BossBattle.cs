@@ -29,6 +29,8 @@ public class BossBattle : MonoBehaviour
 
     public GameObject obstacles;
 
+    public string bossRef;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -71,5 +73,7 @@ public class BossBattle : MonoBehaviour
 
         theBoss.GetComponent<Collider2D>().enabled = false;
         gameObject.SetActive(false);
+
+        PlayerPrefs.SetInt(bossRef, 1);
     }
 }

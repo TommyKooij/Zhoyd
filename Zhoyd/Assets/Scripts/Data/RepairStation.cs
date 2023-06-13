@@ -8,6 +8,7 @@ public class RepairStation : MonoBehaviour
     private PlayerController player;
 
     public GameObject placePlayer;
+    public string levelToLoad;
     private bool isSaving;
 
     public float timeToSave;
@@ -41,6 +42,13 @@ public class RepairStation : MonoBehaviour
                 player.isUsingElevator = false;
                 saveCounter = timeToSave;
                 isSaving = false;
+            }
+            else
+            {
+                PlayerPrefs.SetString("LoadLevel", levelToLoad);
+                PlayerPrefs.SetFloat("PosX", placePlayer.transform.position.x);
+                PlayerPrefs.SetFloat("PosY", placePlayer.transform.position.y);
+                PlayerPrefs.SetFloat("PosZ", placePlayer.transform.position.z);
             }
         }
     }
