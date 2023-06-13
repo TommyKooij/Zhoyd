@@ -17,7 +17,6 @@ public class ElevatorController : MonoBehaviour
 
     public bool up, down = false;
     public bool usingElevator = false;
-    private bool hasArrived = false;
     private ElevatorController elevators;
     private ElevatorActivator activator;
     #endregion
@@ -74,7 +73,6 @@ public class ElevatorController : MonoBehaviour
 
         placePlayer.SetActive(false);
         player.canMove = true;
-        hasArrived = true;
         usingElevator = false;
 
         player.isUsingElevator = false;

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ElevatorActivator : MonoBehaviour
 {
@@ -9,7 +10,13 @@ public class ElevatorActivator : MonoBehaviour
     private ElevatorController elevators;
 
     private bool destroyElevator, spawnElevator;
+    private PlayerController player;
     #endregion
+
+    void Start()
+    {
+        player = PlayerHealthController.instance.GetComponent<PlayerController>();
+    }
 
     // Update is called once per frame
     void Update()
