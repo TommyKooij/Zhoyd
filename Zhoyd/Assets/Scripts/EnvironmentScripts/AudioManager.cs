@@ -31,11 +31,6 @@ public class AudioManager : MonoBehaviour
             worldMusic[i].Stop();
         }
 
-        /*for (int i = 0; i < bossMusic.Length; i++)
-        {
-            bossMusic[i].Stop();
-        }*/
-
         mainMenu.Play();
     }
 
@@ -44,10 +39,6 @@ public class AudioManager : MonoBehaviour
         if(!worldMusic[worldMusicNumber].isPlaying)
         {
             mainMenu.Stop();
-            /*for (int i = 0; i < bossMusic.Length; i++)
-            {
-                bossMusic[i].Stop();
-            }*/
 
             worldMusic[worldMusicNumber].Play();
         }

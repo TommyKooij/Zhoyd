@@ -97,6 +97,7 @@ public class UIController : MonoBehaviour
     {
         Time.timeScale = 1f;
 
+        AudioManager.instance.PlayMainMenuMusic();
         Destroy(PlayerHealthController.instance.gameObject);
         PlayerHealthController.instance = null;
         Destroy(RespawnController.instance.gameObject);

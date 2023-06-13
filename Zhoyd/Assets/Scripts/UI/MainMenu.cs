@@ -59,6 +59,7 @@ public class MainMenu : MonoBehaviour
         player.transform.position = new Vector3(PlayerPrefs.GetFloat("PosX"), PlayerPrefs.GetFloat("PosY"), PlayerPrefs.GetFloat("PosZ"));
         SceneManager.LoadScene(PlayerPrefs.GetString("LoadLevel"));
 
+        #region ABILITY UNLOCKS
         if (PlayerPrefs.HasKey("DoubleJumpUnlocked"))
         {
             if (PlayerPrefs.GetInt("DoubleJumpUnlocked") == 1)
@@ -66,19 +67,46 @@ public class MainMenu : MonoBehaviour
                 player.canDoubleJump = true;
             }
         }
+        #endregion
 
+        #region ACCESS UNLOCKS
         if (PlayerPrefs.HasKey("EmeraldAccessUnlocked"))
         {
-            if (PlayerPrefs.GetInt("DoubleJumpUnlocked") == 1)
+            if (PlayerPrefs.GetInt("EmeraldAccessUnlocked") == 1)
             {
                 player.hasEmeraldAccess = true;
             }
         }
+
+        if (PlayerPrefs.HasKey("VioletAccessUnlocked"))
+        {
+            if (PlayerPrefs.GetInt("VioletAccessUnlocked") == 1)
+            {
+                player.hasVioletAccess = true;
+            }
+        }
+
+        if (PlayerPrefs.HasKey("ScarletAccessUnlocked"))
+        {
+            if (PlayerPrefs.GetInt("ScarletAccessUnlocked") == 1)
+            {
+                player.hasScarletAccess = true;
+            }
+        }
+
+        if (PlayerPrefs.HasKey("SapphireAccessUnlocked"))
+        {
+            if (PlayerPrefs.GetInt("SapphireAccessUnlocked") == 1)
+            {
+                player.hasSapphireAccess = true;
+            }
+        }
+        #endregion
     }
 
     public void QuitGame()
     {
-        
+        QuitGameCo();
     }
 
     IEnumerator StartGameCo()
@@ -88,8 +116,16 @@ public class MainMenu : MonoBehaviour
         yield return new WaitForSeconds(5f);
 
         fadingToBlack = false;
-        fadingFromBlack = true;
 
         SceneManager.LoadScene(newGameScene);
+    }
+
+    IEnumerator QuitGameCo()
+    {
+        fadingToBlack = true;
+
+        yield return new WaitForSeconds(2f);
+
+        Application.Quit();
     }
 }
