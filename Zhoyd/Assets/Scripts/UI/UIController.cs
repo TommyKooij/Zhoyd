@@ -10,7 +10,9 @@ public class UIController : MonoBehaviour
     public static UIController instance;
 
     #region VARIABLES
+    public GameObject energyBar;
     public Slider healthSlider;
+    public GameObject eventSystem;
     public Image fadeScreen;
     public float fadeSpeed = 2;
     private bool fadingToBlack, fadingFromBlack;

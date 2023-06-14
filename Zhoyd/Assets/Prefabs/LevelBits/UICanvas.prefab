@@ -2307,6 +2307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d107e57e014b4f45a719158f9f5c5bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  energyBar: {fileID: 306462806331098298}
   healthSlider: {fileID: 7500189721036443617}
   fadeScreen: {fileID: 7500189720743191950}
   fadeSpeed: 2

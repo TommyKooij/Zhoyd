@@ -5,8 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class RespawnController : MonoBehaviour
 {
-
     public static RespawnController instance;
+    #region VARIABLES
+    private Vector3 respawnPoint;
+    public float waitToRespawn;
+    private GameObject thePlayer;
+    #endregion
+
     private void Awake()
     {
         if (instance == null)
@@ -20,10 +25,6 @@ public class RespawnController : MonoBehaviour
         }
     }
 
-    private Vector3 respawnPoint;
-    public float waitToRespawn;
-    private GameObject thePlayer;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -32,12 +33,7 @@ public class RespawnController : MonoBehaviour
         respawnPoint = thePlayer.transform.position;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
+    #region METHODS
     public void SetSpawn(Vector3 newPosition)
     {
         respawnPoint = newPosition;
@@ -54,11 +50,12 @@ public class RespawnController : MonoBehaviour
 
         yield return new WaitForSeconds(waitToRespawn);
 
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene(PlayerPrefs.GetString("LoadLevel"));
 
-        thePlayer.transform.position = respawnPoint;
+        thePlayer.transform.position = new Vector3(PlayerPrefs.GetFloat("PosX"), PlayerPrefs.GetFloat("PosY"), PlayerPrefs.GetFloat("PosZ"));
         thePlayer.SetActive(true);
 
         PlayerHealthController.instance.FillHealthbar();
     }
+    #endregion
 }

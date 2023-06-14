@@ -20,6 +20,11 @@ public class MainMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if (PlayerPrefs.HasKey("LoadLevel"))
+        {
+            continueButton.SetActive(true);
+        }
+
         AudioManager.instance.PlayMainMenuMusic();
     }
 
@@ -94,6 +99,9 @@ public class MainMenu : MonoBehaviour
         yield return new WaitForSeconds(4f);
 
         SceneManager.LoadScene(newGameScene);
+
+        UIController.instance.energyBar.SetActive(true);
+        UIController.instance.eventSystem.SetActive(true);
 
         UIController.instance.StartFadeFromBlack();
     }

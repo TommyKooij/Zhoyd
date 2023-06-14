@@ -926,7 +926,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7500189720110100791, guid: 5a6f8fd474c7dfe47b39ca564398d547, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7500189720110100791, guid: 5a6f8fd474c7dfe47b39ca564398d547, type: 3}
       propertyPath: m_AnchorMax.x
@@ -2114,15 +2114,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5666607533165685878, guid: 891970bfe7ca9ff4996432ad3ea3586b, type: 3}
       propertyPath: orthographic size
-      value: 2
+      value: 1.8
       objectReference: {fileID: 0}
     - target: {fileID: 5666607533165685878, guid: 891970bfe7ca9ff4996432ad3ea3586b, type: 3}
       propertyPath: m_NormalizedViewPortRect.x
-      value: 0.1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5666607533165685878, guid: 891970bfe7ca9ff4996432ad3ea3586b, type: 3}
       propertyPath: m_NormalizedViewPortRect.width
-      value: 0.8
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5666607533404604162, guid: 891970bfe7ca9ff4996432ad3ea3586b, type: 3}
       propertyPath: m_IsActive
@@ -3873,7 +3873,7 @@ Transform:
   - {fileID: 1514790736}
   - {fileID: 1980972358}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2139085601
 GameObject:
@@ -4016,6 +4016,10 @@ PrefabInstance:
     - target: {fileID: 8832376898868466222, guid: 1dfea50502f53f34a82cc3fd355db2d2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8832376898868466223, guid: 1dfea50502f53f34a82cc3fd355db2d2, type: 3}
+      propertyPath: levelToLoad
+      value: Biome1_2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1dfea50502f53f34a82cc3fd355db2d2, type: 3}

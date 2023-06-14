@@ -410,11 +410,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5666607533165685878, guid: 891970bfe7ca9ff4996432ad3ea3586b, type: 3}
       propertyPath: m_NormalizedViewPortRect.x
-      value: 0.1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5666607533165685878, guid: 891970bfe7ca9ff4996432ad3ea3586b, type: 3}
       propertyPath: m_NormalizedViewPortRect.width
-      value: 0.8
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5666607533404604165, guid: 891970bfe7ca9ff4996432ad3ea3586b, type: 3}
       propertyPath: levelToLoad
@@ -2407,7 +2407,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7500189720110100791, guid: 5a6f8fd474c7dfe47b39ca564398d547, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7500189720110100791, guid: 5a6f8fd474c7dfe47b39ca564398d547, type: 3}
       propertyPath: m_AnchorMax.x
