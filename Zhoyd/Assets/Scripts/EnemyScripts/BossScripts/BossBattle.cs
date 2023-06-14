@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BossBattle : MonoBehaviour
 {
+    #region VARIABLES
     private CameraController theCamera;
     public Transform camPosition;
     public float camSpeed;
@@ -27,9 +28,8 @@ public class BossBattle : MonoBehaviour
     public int bossMusicNumber;
     public int worldMusicNumber;
 
-    public GameObject obstacles;
-
     public string bossRef;
+    #endregion
 
     // Start is called before the first frame update
     void Start()
@@ -40,8 +40,6 @@ public class BossBattle : MonoBehaviour
         //shotCounter = timeBetweenShots;
 
         AudioManager.instance.PlayBossMusic(bossMusicNumber);
-
-        obstacles.SetActive(true);
     }
 
     // Update is called once per frame
@@ -67,8 +65,6 @@ public class BossBattle : MonoBehaviour
 
     public void EndBattle()
     {
-        obstacles.SetActive(false);
-
         battleEnded = true;
 
         theBoss.GetComponent<Collider2D>().enabled = false;

@@ -19,7 +19,7 @@ public class BossHealthController : MonoBehaviour
     private float flashCounter;
     private bool isDamaged = false;
 
-    public SpriteRenderer[] playerSprites;
+    public SpriteRenderer[] bossSprites;
     #endregion
 
     private void Awake()
@@ -45,7 +45,7 @@ public class BossHealthController : MonoBehaviour
             flashCounter -= Time.deltaTime;
             if (flashCounter <= 0)
             {
-                foreach (SpriteRenderer sr in playerSprites)
+                foreach (SpriteRenderer sr in bossSprites)
                 {
                     sr.enabled = !sr.enabled;
                 }
@@ -55,7 +55,7 @@ public class BossHealthController : MonoBehaviour
 
             if (invinceCounter <= 0)
             {
-                foreach (SpriteRenderer sr in playerSprites)
+                foreach (SpriteRenderer sr in bossSprites)
                 {
                     sr.enabled = true;
                 }

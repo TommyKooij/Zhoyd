@@ -75,6 +75,7 @@ public class UIController : MonoBehaviour
         }
     }
 
+    #region METHODS
     public void UpdateHealth(int currentHealth, int maxHealth)
     {
         healthSlider.maxValue = maxHealth;
@@ -107,4 +108,5 @@ public class UIController : MonoBehaviour
 
         SceneManager.LoadScene(mainMenuScene);
     }
+    #endregion
 }

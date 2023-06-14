@@ -193,6 +193,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   totalHealth: 1
   deathEffect: {fileID: 0}
+  bounce: 0
+  invincibilityLength: 0.5
+  flashLength: 0.1
+  enemySprites:
+  - {fileID: 7924325217080542236}
 --- !u!114 &7924325217726794517
 MonoBehaviour:
   m_ObjectHideFlags: 0

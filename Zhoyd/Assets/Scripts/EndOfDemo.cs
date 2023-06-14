@@ -12,6 +12,8 @@ public class EndOfDemo : MonoBehaviour
     {
         if (other.tag == "Player" && Input.GetAxisRaw("Vertical") > .9f)
         {
+            PlayerPrefs.DeleteAll();
+            AudioManager.instance.PlayMainMenuMusic();
             Destroy(elevator);
             UIController.instance.MainMenu();
         }

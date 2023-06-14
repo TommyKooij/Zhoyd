@@ -23,29 +23,7 @@ public class MainMenu : MonoBehaviour
         AudioManager.instance.PlayMainMenuMusic();
     }
 
-    void Update()
-    {
-        if (fadingToBlack)
-        {
-            fadeScreen.color = new Color(fadeScreen.color.r, fadeScreen.color.g, fadeScreen.color.b, Mathf.MoveTowards(fadeScreen.color.a, 1f, fadeSpeed * Time.deltaTime));
-
-            if (fadeScreen.color.a == 1f)
-            {
-                fadingToBlack = false;
-            }
-        }
-        else if (fadingFromBlack)
-        {
-            fadeScreen.color = new Color(fadeScreen.color.r, fadeScreen.color.g, fadeScreen.color.b, Mathf.MoveTowards(fadeScreen.color.a, 0f, fadeSpeed * Time.deltaTime));
-
-            if (fadeScreen.color.a == 0f)
-            {
-                fadingFromBlack = false;
-            }
-
-        }
-    }
-
+    #region METHODS
     public void NewGame()
     {
         PlayerPrefs.DeleteAll();
@@ -111,21 +89,22 @@ public class MainMenu : MonoBehaviour
 
     IEnumerator StartGameCo()
     {
-        fadingToBlack = true;
+        UIController.instance.StartFadeToBlack();
 
-        yield return new WaitForSeconds(5f);
-
-        fadingToBlack = false;
+        yield return new WaitForSeconds(4f);
 
         SceneManager.LoadScene(newGameScene);
+
+        UIController.instance.StartFadeFromBlack();
     }
 
     IEnumerator QuitGameCo()
     {
-        fadingToBlack = true;
+        UIController.instance.StartFadeToBlack();
 
         yield return new WaitForSeconds(2f);
 
         Application.Quit();
     }
+    #endregion
 }

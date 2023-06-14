@@ -5,7 +5,15 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager instance;
+
+    #region VARIABLES
+    public AudioSource mainMenu;
+    public AudioSource[] worldMusic;
+    public AudioSource[] bossMusic;
+    public AudioSource[] sfx;
+
     private int worldMusicNumber, bossMusicNumber;
+    #endregion
 
     private void Awake()
     {
@@ -13,16 +21,12 @@ public class AudioManager : MonoBehaviour
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
-        } else
+        }
+        else
         {
             Destroy(gameObject);
         }
     }
-
-    public AudioSource mainMenu;
-    public AudioSource[] worldMusic;
-    public AudioSource[] bossMusic;
-    public AudioSource[] sfx;
 
     public void PlayMainMenuMusic()
     {
@@ -52,13 +56,5 @@ public class AudioManager : MonoBehaviour
         }
 
         bossMusic[bossMusicNumber].Play();
-    }
-
-    public void ForceStopMusic()
-    {
-        for (int i = 0; i < worldMusic.Length; i++)
-        {
-            worldMusic[i].Stop();
-        }
     }
 }
