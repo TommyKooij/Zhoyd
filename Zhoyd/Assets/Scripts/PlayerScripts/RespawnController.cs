@@ -9,6 +9,7 @@ public class RespawnController : MonoBehaviour
     #region VARIABLES
     private Vector3 respawnPoint;
     public float waitToRespawn;
+    public string mainMenu;
     private GameObject thePlayer;
     #endregion
 
@@ -41,7 +42,14 @@ public class RespawnController : MonoBehaviour
 
     public void Respawn()
     {
-        StartCoroutine(RespawnCO());
+        if (PlayerPrefs.HasKey("LoadLevel"))
+        {
+            StartCoroutine(RespawnCO());
+        }
+        else
+        {
+            StartCoroutine(MainMenuCo());
+        }
     }
 
     IEnumerator RespawnCO()
@@ -56,6 +64,23 @@ public class RespawnController : MonoBehaviour
         thePlayer.SetActive(true);
 
         PlayerHealthController.instance.FillHealthbar();
+    }
+
+    IEnumerator MainMenuCo()
+    {
+        thePlayer.SetActive(false);
+
+        yield return new WaitForSeconds(waitToRespawn);
+
+        AudioManager.instance.PlayMainMenuMusic();
+        Destroy(PlayerHealthController.instance.gameObject);
+        PlayerHealthController.instance = null;
+        Destroy(RespawnController.instance.gameObject);
+        RespawnController.instance = null;
+        Destroy(UIController.instance.gameObject);
+        UIController.instance = null;
+
+        SceneManager.LoadScene(mainMenu);
     }
     #endregion
 }
