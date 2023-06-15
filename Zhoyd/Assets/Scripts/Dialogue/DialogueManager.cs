@@ -12,6 +12,8 @@ public class DialogueManager : MonoBehaviour
 
 	public Animator animator;
 
+	public bool dialogueEnded;
+
 	private Queue<string> sentences;
     #endregion
 
@@ -23,7 +25,8 @@ public class DialogueManager : MonoBehaviour
 
 	public void StartDialogue(Dialogue dialogue)
 	{
-		animator.SetBool("IsOpen", true);
+		dialogueEnded = false;
+		//animator.SetBool("IsOpen", true);
 
 		nameText.text = dialogue.name;
 
@@ -41,6 +44,8 @@ public class DialogueManager : MonoBehaviour
 	{
 		if (sentences.Count == 0)
 		{
+			nameText.text = "";
+			dialogueText.text = "";
 			EndDialogue();
 			return;
 		}
@@ -56,13 +61,14 @@ public class DialogueManager : MonoBehaviour
 		foreach (char letter in sentence.ToCharArray())
 		{
 			dialogueText.text += letter;
-			yield return null;
+			yield return new WaitForSeconds(0.05f);
 		}
 	}
 
 	void EndDialogue()
 	{
-		animator.SetBool("IsOpen", false);
+		dialogueEnded = true;
+		//animator.SetBool("IsOpen", false);
 	}
 
 }

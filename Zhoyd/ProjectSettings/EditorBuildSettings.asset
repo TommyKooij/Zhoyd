@@ -8,12 +8,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/Intro/Scene_0.unity
-    guid: dfc639acce1ebab49a8796b65e53e523
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Intro/MainMenu.unity
     guid: b001cdd88b52d6647b5de23a755efb04
+  - enabled: 1
+    path: Assets/Scenes/Intro/Intro.unity
+    guid: 0d030a36d4580954980825f7703e73eb
   - enabled: 1
     path: Assets/Scenes/CrystaleumGorge/Biome1_1.unity
     guid: 80d745c040f11b64e9f7f2b85fd3767f

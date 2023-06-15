@@ -15,6 +15,7 @@ public class MainMenu : MonoBehaviour
     public Image fadeScreen;
     public float fadeSpeed = 2;
     private bool fadingToBlack, fadingFromBlack;
+    private bool isNewGame;
     #endregion
 
     // Start is called before the first frame update
@@ -28,12 +29,43 @@ public class MainMenu : MonoBehaviour
         AudioManager.instance.PlayMainMenuMusic();
     }
 
+    void Update()
+    {
+        if (fadingToBlack)
+        {
+            fadeScreen.color = new Color(fadeScreen.color.r, fadeScreen.color.g, fadeScreen.color.b, Mathf.MoveTowards(fadeScreen.color.a, 1f, fadeSpeed * Time.deltaTime));
+
+            if (fadeScreen.color.a == 1f)
+            {
+                fadingToBlack = false;
+
+                if (isNewGame)
+                {
+                    isNewGame = false;
+
+                    SceneManager.LoadScene("Intro");
+                }
+            }
+        }
+        else if (fadingFromBlack)
+        {
+            fadeScreen.color = new Color(fadeScreen.color.r, fadeScreen.color.g, fadeScreen.color.b, Mathf.MoveTowards(fadeScreen.color.a, 0f, fadeSpeed * Time.deltaTime));
+
+            if (fadeScreen.color.a == 0f)
+            {
+                fadingFromBlack = false;
+            }
+
+        }
+    }
+
     #region METHODS
     public void NewGame()
     {
         PlayerPrefs.DeleteAll();
 
-        StartCoroutine(StartGameCo());
+        isNewGame = true;
+        fadingToBlack = true;
     }
 
     public void ContinueGame()
@@ -89,29 +121,6 @@ public class MainMenu : MonoBehaviour
 
     public void QuitGame()
     {
-        QuitGameCo();
-    }
-
-    IEnumerator StartGameCo()
-    {
-        UIController.instance.StartFadeToBlack();
-
-        yield return new WaitForSeconds(4f);
-
-        SceneManager.LoadScene(newGameScene);
-
-        UIController.instance.energyBar.SetActive(true);
-        UIController.instance.eventSystem.SetActive(true);
-
-        UIController.instance.StartFadeFromBlack();
-    }
-
-    IEnumerator QuitGameCo()
-    {
-        UIController.instance.StartFadeToBlack();
-
-        yield return new WaitForSeconds(2f);
-
         Application.Quit();
     }
     #endregion
