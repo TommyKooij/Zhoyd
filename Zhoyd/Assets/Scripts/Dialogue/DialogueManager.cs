@@ -2,19 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class DialogueManager : MonoBehaviour
 {
-
-	public Text nameText;
-	public Text dialogueText;
+    #region VARIABLES
+    public TMP_Text nameText;
+	public TMP_Text dialogueText;
 
 	public Animator animator;
 
 	private Queue<string> sentences;
+    #endregion
 
-	// Use this for initialization
-	void Start()
+    // Use this for initialization
+    void Start()
 	{
 		sentences = new Queue<string>();
 	}
