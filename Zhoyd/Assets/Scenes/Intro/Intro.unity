@@ -392,6 +392,63 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &983147727
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2927159795824259109, guid: eaffd1d043be8ca46a41a0169e924e34, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2927159795824259109, guid: eaffd1d043be8ca46a41a0169e924e34, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2927159795824259109, guid: eaffd1d043be8ca46a41a0169e924e34, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2927159795824259109, guid: eaffd1d043be8ca46a41a0169e924e34, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2927159795824259109, guid: eaffd1d043be8ca46a41a0169e924e34, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2927159795824259109, guid: eaffd1d043be8ca46a41a0169e924e34, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2927159795824259109, guid: eaffd1d043be8ca46a41a0169e924e34, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2927159795824259109, guid: eaffd1d043be8ca46a41a0169e924e34, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2927159795824259109, guid: eaffd1d043be8ca46a41a0169e924e34, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2927159795824259109, guid: eaffd1d043be8ca46a41a0169e924e34, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2927159795824259109, guid: eaffd1d043be8ca46a41a0169e924e34, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2927159795824259111, guid: eaffd1d043be8ca46a41a0169e924e34, type: 3}
+      propertyPath: m_Name
+      value: AM Loader
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eaffd1d043be8ca46a41a0169e924e34, type: 3}
 --- !u!1 &1110850747
 GameObject:
   m_ObjectHideFlags: 0
@@ -425,18 +482,19 @@ MonoBehaviour:
   dialogue:
     name: --Briefing--
     sentences:
-    - Three days ago, Baryillian Vessels were spotted leaving the atmosphere of a
+    - Three days ago, Baryillian vessels were spotted leaving the atmosphere of a
       lone planet named Salus V - inside the Helios system.
     - "The vessels were believed to carry large amounts of energy, however intel
       of the Baryillians\u2019 occupation on the surface is currently unknown.\r"
     - Whatever it is, their presence could pose a threat to the safety of the Alliance
       and any independent system alike.
-    - "I therefore issue the command to send Squadron #311 and #314, accompanied
-      by Spec Ops Officer Rory Delcine, to go on a reconnaissance mission to Salus
-      V.\r"
-    - Investigate the Baryillians and report any suspicious activities back to me.
-    - "Success soldiers! And remember: \u201CFor Peace And Glory!\u201D, General
-      Sinder out!"
+    - "I therefore issue the command to send Squadron #311, alongside Spec Ops Officer
+      Rory Delcine, to go on a reconnaissance mission to Salus V.\r"
+    - 'Investigate the Baryillians and report any suspicious activities back to me.
+
+      Success
+      soldiers! '
+    - "And remember: \u201CFor Peace And Glory!\u201D\nGeneral Sinder out!"
 --- !u!114 &1110850749
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -928,4 +986,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   boundsBox: {fileID: 0}
-  worldMusicNumber: 0
+  worldMusicNumber: 100

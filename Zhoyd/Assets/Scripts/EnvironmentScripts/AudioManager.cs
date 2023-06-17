@@ -57,4 +57,14 @@ public class AudioManager : MonoBehaviour
 
         bossMusic[bossMusicNumber].Play();
     }
+
+    public void StopMusic()
+    {
+        for (int i = 0; i < worldMusic.Length; i++)
+        {
+            worldMusic[i].Stop();
+        }
+
+        mainMenu.Stop();
+    }
 }

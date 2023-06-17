@@ -32,6 +32,7 @@ public class PlayerController : MonoBehaviour
     public float jumpSpeed;
     public float jumpGravity;
     public float gravityTimeJump;
+    private bool cantJump;
 
     [Header("Layers")]
     public Transform groundPoint;
@@ -238,7 +239,16 @@ public class PlayerController : MonoBehaviour
             #endregion
 
             #region JUMP
-            if (!isCrawling && Input.GetButtonDown("Jump") && (isOnGround || (canDoubleJump && abilities.canDoubleJump)))
+            if (isStanding == true)
+            {
+                cantJump = false;
+            }
+            else
+            {
+                cantJump = true;
+            }
+
+            if (!cantJump && !isCrawling && Input.GetButtonDown("Jump") && (isOnGround || (canDoubleJump && abilities.canDoubleJump)))
             {
                 isJumping = true;
                 jumpButtonPress = 0f;
@@ -424,12 +434,12 @@ public class PlayerController : MonoBehaviour
             theRB.velocity = Vector2.zero;
         }
 
-        #region DELETE PLAYPREFS
+        /*#region DELETE PLAYPREFS
         if (Input.GetKeyDown("z"))
         {
             PlayerPrefs.DeleteAll();
         }
-        #endregion
+        #endregion*/
     }
 
     #region METHODS
@@ -439,6 +449,7 @@ public class PlayerController : MonoBehaviour
         crawlingShoot.SetActive(false);
         standingShoot.SetActive(true);
         moveSpeed = minMoveSpeed;
+        cantJump = false;
     }
 
     public void ShowAfterImage()

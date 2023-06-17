@@ -32,9 +32,18 @@ public class IntroDialogue : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        AudioManager.instance.StopMusic();
+
         if (manager.dialogueEnded == true)
         {
-            SceneManager.LoadScene(sceneToLoad);
+            StartCoroutine(LoadLevelCo());
         }
+    }
+
+    IEnumerator LoadLevelCo()
+    {
+        yield return new WaitForSeconds(2f);
+
+        SceneManager.LoadScene(sceneToLoad);
     }
 }

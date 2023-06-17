@@ -29,17 +29,16 @@ public class BossBattle : MonoBehaviour
     public int worldMusicNumber;
 
     public string bossRef;
+    private PlayerAbilityTracker abilities;
     #endregion
 
     // Start is called before the first frame update
     void Start()
     {
-        //theCamera = FindObjectOfType<CameraController>();
-        //theCamera.enabled = false;
+        abilities = PlayerHealthController.instance.GetComponent<PlayerAbilityTracker>();
 
-        //shotCounter = timeBetweenShots;
-
-        AudioManager.instance.PlayBossMusic(bossMusicNumber);
+        //AudioManager.instance.PlayBossMusic(bossMusicNumber);
+        AudioManager.instance.StopMusic();
     }
 
     // Update is called once per frame
@@ -48,10 +47,11 @@ public class BossBattle : MonoBehaviour
         if (!battleEnded)
         {
             //theCamera.transform.position = Vector3.MoveTowards(theCamera.transform.position, camPosition.transform.position, camSpeed * Time.deltaTime);
-
+            abilities.hasThresherAccess = false;
         } 
         else
         {
+            abilities.hasThresherAccess = true;
             if (rewards != null)
             {
                 rewards.SetActive(true);
