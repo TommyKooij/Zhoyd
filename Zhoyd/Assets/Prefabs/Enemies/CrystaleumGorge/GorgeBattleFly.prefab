@@ -191,9 +191,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f0ec4f966d07a548b742eca9aed187c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  totalHealth: 3
+  currentHealth: 3
+  maxHealth: 0
   deathEffect: {fileID: 974395073558596864, guid: e1a701a25ff2ef54cbfb9ebb0bbdba44, type: 3}
-  bounce: 0
   invincibilityLength: 0.5
   flashLength: 0.1
   enemySprites:
@@ -210,7 +210,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e72d48d0a1d7395468da5598420c5a84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageAmount: 12
+  damageAmount: 8
   destroyOnDamage: 0
   destroyEffect: {fileID: 0}
 --- !u!114 &219281832742605039
@@ -227,5 +227,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   theRB: {fileID: 219281832742605043}
   rangeToStartChase: 2
-  moveSpeed: 2
+  moveSpeed: 1.8
   anim: {fileID: 219281832193092456}

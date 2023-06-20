@@ -148,7 +148,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3159237404745818420, guid: 50b31c0b72d915041b8ccb1c58d82d02, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3159237404745818420, guid: 50b31c0b72d915041b8ccb1c58d82d02, type: 3}
       propertyPath: m_LocalPosition.x
@@ -357,7 +357,7 @@ Transform:
   - {fileID: 1392227879}
   - {fileID: 1968069312}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &409833233
 GameObject:
@@ -2610,7 +2610,7 @@ Transform:
   - {fileID: 946585394}
   - {fileID: 1639849144}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &972773266
 GameObject:
@@ -2809,7 +2809,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7500189720110100791, guid: 5a6f8fd474c7dfe47b39ca564398d547, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7500189720110100791, guid: 5a6f8fd474c7dfe47b39ca564398d547, type: 3}
       propertyPath: m_AnchorMax.x
@@ -7284,7 +7284,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 511220198872015684, guid: fc899a359d29dc84cbf110c328ef2309, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 511220198872015684, guid: fc899a359d29dc84cbf110c328ef2309, type: 3}
       propertyPath: m_LocalScale.x
@@ -7627,7 +7627,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4955615199961068147, guid: a353fe6c408b7b0499bf84f435fc261f, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4955615199961068147, guid: a353fe6c408b7b0499bf84f435fc261f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8283,6 +8283,10 @@ PrefabInstance:
       propertyPath: elevator
       value: 
       objectReference: {fileID: 7447274513401551848}
+    - target: {fileID: 2068013190264450177, guid: 593d2fae4d31d1c4da5e2a7e6d9f3330, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2068013190264450177, guid: 593d2fae4d31d1c4da5e2a7e6d9f3330, type: 3}
       propertyPath: elevatorScript
       value: 
@@ -12902,7 +12906,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2927159795824259109, guid: eaffd1d043be8ca46a41a0169e924e34, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2927159795824259109, guid: eaffd1d043be8ca46a41a0169e924e34, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16175,7 +16179,7 @@ PrefabInstance:
       objectReference: {fileID: 7447274512995179702, guid: b726a72eaf5548145b945c0cba5d136b, type: 3}
     - target: {fileID: 7447274512995179698, guid: b726a72eaf5548145b945c0cba5d136b, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7447274512995179698, guid: b726a72eaf5548145b945c0cba5d136b, type: 3}
       propertyPath: timeAfterFade
@@ -16253,10 +16257,37 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7447274512995179698, guid: b726a72eaf5548145b945c0cba5d136b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b726a72eaf5548145b945c0cba5d136b, type: 3}
 --- !u!1 &7447274513401551848 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7447274512995179702, guid: b726a72eaf5548145b945c0cba5d136b, type: 3}
   m_PrefabInstance: {fileID: 7447274513401551847}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &7447274513401551849 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1650843878, guid: b726a72eaf5548145b945c0cba5d136b, type: 3}
+  m_PrefabInstance: {fileID: 7447274513401551847}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7447274513401551857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7447274513401551848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de2deeb2e05a3ef4f9f1e6620937a8bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeBeforeFade: 2
+  timeAfterFade: 5.2
+  positionToGo: {x: 93.5, y: 2.9, z: 0}
+  placePlayer: {fileID: 7447274513401551849}
+  moveSpeed: 1
+  levelToLoad: Biome1_9
+  up: 0
+  down: 1
+  usingElevator: 0

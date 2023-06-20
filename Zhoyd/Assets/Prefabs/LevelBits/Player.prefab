@@ -1006,7 +1006,7 @@ MonoBehaviour:
   isUsingElevator: 0
   moveSpeed: 0
   minMoveSpeed: 2
-  maxMoveSpeed: 5
+  maxMoveSpeed: 4.8
   timeBeforeMaxSpeed: 5
   walkDrag: 20
   canMove: 0
@@ -1014,8 +1014,8 @@ MonoBehaviour:
   walkGravity: 3.5
   fallGravity: 12
   gravityTimeFall: 15
-  jumpThreshold: 5
-  jumpForce: 9
+  jumpThreshold: 4.8
+  jumpForce: 8.5
   jumpButtonPressLimit: 0.15
   jumpDrag: 8
   jumpSpeed: 4
@@ -1046,7 +1046,7 @@ MonoBehaviour:
   isStanding: 0
   isCrouching: 0
   isCrawling: 0
-  crouchButtonPressLimit: 0.5
+  crouchButtonPressLimit: 0.25
   shotToFire: {fileID: 6498641783213824191, guid: 7751af1daac88e04f943b97806e46166, type: 3}
   shotPoint: {fileID: 5274202859624011892}
   shotPointCrouch: {fileID: 7182428378570012222}

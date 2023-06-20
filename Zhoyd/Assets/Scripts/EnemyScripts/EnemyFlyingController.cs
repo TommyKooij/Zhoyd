@@ -14,12 +14,16 @@ public class EnemyFlyingController : MonoBehaviour
     private Transform player;
 
     public Animator anim;
+
+    private EnemyHealthController health;
     #endregion
 
     // Start is called before the first frame update
     void Start()
     {
         player = PlayerHealthController.instance.transform;
+
+        health = GetComponent<EnemyHealthController>();
     }
 
     // Update is called once per frame
@@ -29,13 +33,20 @@ public class EnemyFlyingController : MonoBehaviour
 
         if (!isChasing)
         {
-            if (Vector3.Distance(transform.position, player.position) < rangeToStartChase)
+            if (health.maxHealth > health.currentHealth)
             {
                 isChasing = true;
             }
             else
             {
-                isChasing = false;
+                if (Vector3.Distance(transform.position, player.position) < rangeToStartChase)
+                {
+                    isChasing = true;
+                }
+                else
+                {
+                    isChasing = false;
+                }
             }
         } 
         else

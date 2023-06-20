@@ -152,7 +152,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7500189720110100791, guid: 5a6f8fd474c7dfe47b39ca564398d547, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7500189720110100791, guid: 5a6f8fd474c7dfe47b39ca564398d547, type: 3}
       propertyPath: m_AnchorMax.x
@@ -6857,7 +6857,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2927159795824259109, guid: eaffd1d043be8ca46a41a0169e924e34, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2927159795824259109, guid: eaffd1d043be8ca46a41a0169e924e34, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14767,7 +14767,7 @@ Transform:
   - {fileID: 1722495633}
   - {fileID: 1060497754}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &984044960
 GameObject:
@@ -24015,7 +24015,7 @@ PrefabInstance:
       objectReference: {fileID: 7447274512995179702, guid: b726a72eaf5548145b945c0cba5d136b, type: 3}
     - target: {fileID: 2290153048374674747, guid: 593d2fae4d31d1c4da5e2a7e6d9f3330, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 2290153048374674747, guid: 593d2fae4d31d1c4da5e2a7e6d9f3330, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24064,6 +24064,10 @@ PrefabInstance:
     - target: {fileID: 2290153048374674749, guid: 593d2fae4d31d1c4da5e2a7e6d9f3330, type: 3}
       propertyPath: m_Name
       value: ElevatorActivator
+      objectReference: {fileID: 0}
+    - target: {fileID: 2290153048374674749, guid: 593d2fae4d31d1c4da5e2a7e6d9f3330, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2290153048374674748, guid: 593d2fae4d31d1c4da5e2a7e6d9f3330, type: 3}
@@ -25322,6 +25326,27 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7447274512995179702, guid: b726a72eaf5548145b945c0cba5d136b, type: 3}
   m_PrefabInstance: {fileID: 1884133195}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1884133198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884133197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6059038e4e8fec54cb22042bf2fc305a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeBeforeFade: 0
+  timeAfterFade: 0
+  positionToGo: {x: 0, y: 0, z: 0}
+  placePlayer: {fileID: 0}
+  moveSpeed: 0
+  levelToLoad: 
+  up: 0
+  down: 0
+  usingElevator: 0
 --- !u!1001 &1888789857
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26673,7 +26698,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4955615199961068147, guid: a353fe6c408b7b0499bf84f435fc261f, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4955615199961068147, guid: a353fe6c408b7b0499bf84f435fc261f, type: 3}
       propertyPath: m_LocalPosition.x

@@ -1972,7 +1972,6 @@ GameObject:
   - component: {fileID: 379458209}
   - component: {fileID: 379458208}
   - component: {fileID: 379458207}
-  - component: {fileID: 379458206}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1980,20 +1979,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &379458206
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 379458205}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a90c2eb32921b7498239d88115c73d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  boundsBox: {fileID: 0}
-  worldMusicNumber: 0
 --- !u!81 &379458207
 AudioListener:
   m_ObjectHideFlags: 0

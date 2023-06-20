@@ -5,10 +5,9 @@ using UnityEngine;
 public class EnemyHealthController : MonoBehaviour
 {
     #region VARIABLES
-    public int totalHealth = 3;
+    public int currentHealth;
+    public int maxHealth;
     public GameObject deathEffect;
-    private Transform player;
-    public float bounce;
 
     public float invincibilityLength;
     private float invinceCounter;
@@ -21,7 +20,7 @@ public class EnemyHealthController : MonoBehaviour
 
     public void Start()
     {
-        player = PlayerHealthController.instance.transform;
+        maxHealth = currentHealth;
     }
 
     public void Update()
@@ -63,9 +62,9 @@ public class EnemyHealthController : MonoBehaviour
     {
         if (isDamaged == false)
         {
-            totalHealth -= damageAmount;
+            currentHealth -= damageAmount;
 
-            if (totalHealth <= 0)
+            if (currentHealth <= 0)
             {
                 if (deathEffect != null)
                 {
@@ -78,15 +77,6 @@ public class EnemyHealthController : MonoBehaviour
             {
                 invinceCounter = invincibilityLength;
             }
-        }
-
-        if (player.position.x < transform.position.x)
-        {
-            transform.position = new Vector2(transform.position.x + bounce, transform.position.y);
-        }
-        else
-        {
-            transform.position = new Vector2(transform.position.x - bounce, transform.position.y);
         }
     }
 

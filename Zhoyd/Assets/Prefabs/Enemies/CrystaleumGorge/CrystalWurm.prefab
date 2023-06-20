@@ -174,7 +174,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f0ec4f966d07a548b742eca9aed187c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  totalHealth: 2
+  currentHealth: 2
+  maxHealth: 0
   deathEffect: {fileID: 974395073558596864, guid: e1a701a25ff2ef54cbfb9ebb0bbdba44, type: 3}
   bounce: 0
   invincibilityLength: 0.5

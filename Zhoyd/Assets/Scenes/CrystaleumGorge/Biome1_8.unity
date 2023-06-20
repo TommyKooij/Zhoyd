@@ -6791,7 +6791,7 @@ Transform:
   - {fileID: 814440968}
   - {fileID: 61795686}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1844994780
 PrefabInstance:
@@ -7083,7 +7083,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7500189720110100791, guid: 5a6f8fd474c7dfe47b39ca564398d547, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7500189720110100791, guid: 5a6f8fd474c7dfe47b39ca564398d547, type: 3}
       propertyPath: m_AnchorMax.x
@@ -7552,6 +7552,10 @@ PrefabInstance:
     - target: {fileID: 4407542041986426339, guid: 34919fa947bddd643a50d9d04a61e07a, type: 3}
       propertyPath: m_Name
       value: Zhoyd
+      objectReference: {fileID: 0}
+    - target: {fileID: 4407542041986426339, guid: 34919fa947bddd643a50d9d04a61e07a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4407542041986426349, guid: 34919fa947bddd643a50d9d04a61e07a, type: 3}
       propertyPath: m_RootOrder

@@ -6,13 +6,11 @@ using UnityEngine.SceneManagement;
 
 public class UIController : MonoBehaviour
 {
-
     public static UIController instance;
 
     #region VARIABLES
     public GameObject energyBar;
     public Slider healthSlider;
-    public GameObject eventSystem;
     public Image fadeScreen;
     public float fadeSpeed = 2;
     private bool fadingToBlack, fadingFromBlack;
@@ -22,6 +20,8 @@ public class UIController : MonoBehaviour
     public GameObject options, arrowsOptionsList;
     public GameObject[] arrowOptions;
     private int i;
+
+    public Button map, data, triumphs, settings;
     #endregion
 
     private void Awake()
@@ -64,6 +64,11 @@ public class UIController : MonoBehaviour
         {
             if (!pauseScreen.activeSelf)
             {
+                map.interactable = false;
+                data.interactable = false;
+                triumphs.interactable = false;
+                settings.interactable = false;
+
                 pauseScreen.SetActive(true);
 
                 Time.timeScale = 0f;

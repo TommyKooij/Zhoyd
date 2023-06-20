@@ -13,6 +13,8 @@ public class RepairStation : MonoBehaviour
 
     public float timeToSave;
     private float saveCounter;
+
+    public GameObject saveMenu;
     #endregion
 
     // Start is called before the first frame update
@@ -41,6 +43,7 @@ public class RepairStation : MonoBehaviour
                 player.canMove = true;
                 player.isUsingElevator = false;
                 saveCounter = timeToSave;
+                saveMenu.SetActive(false);
                 isSaving = false;
             }
             else
@@ -57,6 +60,7 @@ public class RepairStation : MonoBehaviour
     {
         if (other.tag == "Player" && Input.GetAxisRaw("Vertical") > .9f)
         {
+            saveMenu.SetActive(true);
             isSaving = true;
         }
     }
