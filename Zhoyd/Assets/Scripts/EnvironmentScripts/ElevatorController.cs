@@ -20,6 +20,10 @@ public class ElevatorController : MonoBehaviour
     private ElevatorController elevators;
     private ElevatorActivator activator;
     #endregion
+    private void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -32,9 +36,19 @@ public class ElevatorController : MonoBehaviour
     {
         if (usingElevator == true)
         {
+            player.canMove = false;
+            player.isUsingElevator = true;
+
             gameObject.transform.position = Vector3.MoveTowards(gameObject.transform.position, positionToGo, moveSpeed * Time.deltaTime);
             placePlayer.SetActive(true);
             player.transform.position = placePlayer.transform.position;
+
+            if (gameObject.transform.position == positionToGo)
+            {
+                player.canMove = true;
+                player.isUsingElevator = false;
+                Destroy(gameObject);
+            }
         }
     }
 
@@ -43,7 +57,7 @@ public class ElevatorController : MonoBehaviour
         if (other.tag == "Player" && ((Input.GetAxisRaw("Vertical") < -.9f && down == true) || (Input.GetAxisRaw("Vertical") > .9f && up == true)))
         {
             usingElevator = true;
-            StartCoroutine(UseElevatorCo());
+            //StartCoroutine(UseElevatorCo());
         }
     }
 
