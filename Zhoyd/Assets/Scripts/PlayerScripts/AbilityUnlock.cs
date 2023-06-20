@@ -6,6 +6,8 @@ using TMPro;
 public class AbilityUnlock : MonoBehaviour
 {
     #region VARIABLES
+    public string name;
+
     [Header("Access")]
     public bool emeraldAccess;
     public bool violetAccess;
@@ -35,6 +37,17 @@ public class AbilityUnlock : MonoBehaviour
     public string unlockMessage;
     public TMP_Text unlockText;
     #endregion
+
+    private void Awake()
+    {
+        if (PlayerPrefs.HasKey(name))
+        {
+            if (PlayerPrefs.GetInt(name) == 1)
+            {
+                Destroy(gameObject);
+            }
+        }
+    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {

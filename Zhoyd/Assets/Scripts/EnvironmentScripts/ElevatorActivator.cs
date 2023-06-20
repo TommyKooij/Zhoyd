@@ -16,6 +16,8 @@ public class ElevatorActivator : MonoBehaviour
     void Start()
     {
         player = PlayerHealthController.instance.GetComponent<PlayerController>();
+
+        elevators = FindObjectOfType<ElevatorController>();
     }
 
     // Update is called once per frame
@@ -37,6 +39,17 @@ public class ElevatorActivator : MonoBehaviour
             {
                 elevator.SetActive(true);
                 spawnElevator = false;
+            }
+        }
+    }
+
+    public void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Player")
+        {
+            if (!elevator.activeInHierarchy)
+            {
+                elevator.SetActive(true);
             }
         }
     }

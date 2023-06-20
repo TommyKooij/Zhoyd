@@ -135,6 +135,10 @@ PrefabInstance:
       value: Module
       objectReference: {fileID: 0}
     - target: {fileID: 3159237404745818417, guid: 50b31c0b72d915041b8ccb1c58d82d02, type: 3}
+      propertyPath: name
+      value: ThresherUnlocked
+      objectReference: {fileID: 0}
+    - target: {fileID: 3159237404745818417, guid: 50b31c0b72d915041b8ccb1c58d82d02, type: 3}
       propertyPath: unlockMessage
       value: BOSS ACCESS AQCUIRED
       objectReference: {fileID: 0}
@@ -602,7 +606,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 319906073534155299, guid: fa2a48caa8cfa7342801313f552702ad, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 109.59407
+      value: 107.37
       objectReference: {fileID: 0}
     - target: {fileID: 319906073534155299, guid: fa2a48caa8cfa7342801313f552702ad, type: 3}
       propertyPath: m_LocalPosition.y
@@ -8301,11 +8305,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2290153048374674747, guid: 593d2fae4d31d1c4da5e2a7e6d9f3330, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 95.72192
+      value: 109.92
       objectReference: {fileID: 0}
     - target: {fileID: 2290153048374674747, guid: 593d2fae4d31d1c4da5e2a7e6d9f3330, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10.115951
+      value: 14.02
       objectReference: {fileID: 0}
     - target: {fileID: 2290153048374674747, guid: 593d2fae4d31d1c4da5e2a7e6d9f3330, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8342,6 +8346,14 @@ PrefabInstance:
     - target: {fileID: 2290153048374674749, guid: 593d2fae4d31d1c4da5e2a7e6d9f3330, type: 3}
       propertyPath: m_Name
       value: ElevatorActivator
+      objectReference: {fileID: 0}
+    - target: {fileID: 5151319448154982263, guid: 593d2fae4d31d1c4da5e2a7e6d9f3330, type: 3}
+      propertyPath: m_Size.x
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5151319448154982263, guid: 593d2fae4d31d1c4da5e2a7e6d9f3330, type: 3}
+      propertyPath: m_Size.y
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 593d2fae4d31d1c4da5e2a7e6d9f3330, type: 3}
@@ -13051,6 +13063,10 @@ PrefabInstance:
       propertyPath: movePlayerSpeed
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 511220198872015683, guid: fc899a359d29dc84cbf110c328ef2309, type: 3}
+      propertyPath: m_Size.y
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 511220198872015684, guid: fc899a359d29dc84cbf110c328ef2309, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -13061,7 +13077,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 511220198872015684, guid: fc899a359d29dc84cbf110c328ef2309, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10.06
+      value: 9.75
       objectReference: {fileID: 0}
     - target: {fileID: 511220198872015684, guid: fc899a359d29dc84cbf110c328ef2309, type: 3}
       propertyPath: m_LocalPosition.z
@@ -16316,7 +16332,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7447274512995179702, guid: b726a72eaf5548145b945c0cba5d136b, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7447274513310247111, guid: b726a72eaf5548145b945c0cba5d136b, type: 3}
       propertyPath: m_Enabled
@@ -16355,7 +16371,7 @@ MonoBehaviour:
   timeAfterFade: 5.2
   positionToGo: {x: 93.5, y: 2.9, z: 0}
   placePlayer: {fileID: 7447274513401551849}
-  moveSpeed: 1
+  moveSpeed: 1.5
   levelToLoad: Biome1_9
   up: 0
   down: 1

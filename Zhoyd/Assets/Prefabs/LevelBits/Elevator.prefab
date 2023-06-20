@@ -188,7 +188,7 @@ MonoBehaviour:
   timeAfterFade: 7
   positionToGo: {x: 93.5, y: 2.9, z: 0}
   placePlayer: {fileID: 1650843878}
-  moveSpeed: 1
+  moveSpeed: 1.5
   levelToLoad: Biome1_9
   up: 0
   down: 0

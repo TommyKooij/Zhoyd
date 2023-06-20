@@ -20,6 +20,7 @@ public class ElevatorController : MonoBehaviour
     private ElevatorController elevators;
     private ElevatorActivator activator;
     #endregion
+
     private void Awake()
     {
         DontDestroyOnLoad(gameObject);
@@ -29,6 +30,8 @@ public class ElevatorController : MonoBehaviour
     void Start()
     {
         player = PlayerHealthController.instance.GetComponent<PlayerController>();
+
+        activator = FindObjectOfType<ElevatorActivator>();
     }
 
     // Update is called once per frame
@@ -47,6 +50,8 @@ public class ElevatorController : MonoBehaviour
             {
                 player.canMove = true;
                 player.isUsingElevator = false;
+                activator = FindObjectOfType<ElevatorActivator>();
+                activator.SpawnElevator();
                 Destroy(gameObject);
             }
         }
