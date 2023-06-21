@@ -26,6 +26,7 @@ public class MainMenu : MonoBehaviour
             continueButton.SetActive(true);
         }
 
+        AudioManager.instance.StopMusic();
         AudioManager.instance.PlayMainMenuMusic();
     }
 

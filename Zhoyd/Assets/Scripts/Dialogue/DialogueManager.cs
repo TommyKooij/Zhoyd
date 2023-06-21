@@ -46,6 +46,7 @@ public class DialogueManager : MonoBehaviour
 		{
 			nameText.text = "";
 			dialogueText.text = "";
+			StopAllCoroutines();
 			EndDialogue();
 			return;
 		}

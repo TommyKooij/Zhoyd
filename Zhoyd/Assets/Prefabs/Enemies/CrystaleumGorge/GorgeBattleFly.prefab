@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 219281832193092458}
   - component: {fileID: 219281832193092459}
   - component: {fileID: 219281832193092456}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: GorgeBattleFly_Sprite
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -119,7 +119,7 @@ GameObject:
   - component: {fileID: 219281832742605041}
   - component: {fileID: 219281832742605038}
   - component: {fileID: 219281832742605039}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: GorgeBattleFly
   m_TagString: Enemy
   m_Icon: {fileID: 0}

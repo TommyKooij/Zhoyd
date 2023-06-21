@@ -2808,6 +2808,10 @@ PrefabInstance:
       value: EmeraldAccessUnlocked
       objectReference: {fileID: 0}
     - target: {fileID: 3159237404745818417, guid: 50b31c0b72d915041b8ccb1c58d82d02, type: 3}
+      propertyPath: nameAbility
+      value: EmeraldAccessUnlocked
+      objectReference: {fileID: 0}
+    - target: {fileID: 3159237404745818417, guid: 50b31c0b72d915041b8ccb1c58d82d02, type: 3}
       propertyPath: emeraldAccess
       value: 1
       objectReference: {fileID: 0}

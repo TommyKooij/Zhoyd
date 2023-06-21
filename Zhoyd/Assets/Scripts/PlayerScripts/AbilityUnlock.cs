@@ -6,7 +6,7 @@ using TMPro;
 public class AbilityUnlock : MonoBehaviour
 {
     #region VARIABLES
-    public string name;
+    public string nameAbility;
 
     [Header("Access")]
     public bool emeraldAccess;
@@ -40,9 +40,9 @@ public class AbilityUnlock : MonoBehaviour
 
     private void Awake()
     {
-        if (PlayerPrefs.HasKey(name))
+        if (PlayerPrefs.HasKey(nameAbility))
         {
-            if (PlayerPrefs.GetInt(name) == 1)
+            if (PlayerPrefs.GetInt(nameAbility) == 1)
             {
                 Destroy(gameObject);
             }

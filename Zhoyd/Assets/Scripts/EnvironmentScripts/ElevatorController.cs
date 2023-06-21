@@ -13,7 +13,6 @@ public class ElevatorController : MonoBehaviour
     public Vector3 positionToGo;
     public GameObject placePlayer;
     public float moveSpeed;
-    public string levelToLoad;
 
     public bool up, down = false;
     public bool usingElevator = false;
@@ -62,40 +61,6 @@ public class ElevatorController : MonoBehaviour
         if (other.tag == "Player" && ((Input.GetAxisRaw("Vertical") < -.9f && down == true) || (Input.GetAxisRaw("Vertical") > .9f && up == true)))
         {
             usingElevator = true;
-            //StartCoroutine(UseElevatorCo());
         }
-    }
-
-    IEnumerator UseElevatorCo()
-    {
-        player.canMove = false;
-        player.isUsingElevator = true;
-
-        yield return new WaitForSeconds(timeBeforeFade);
-
-        UIController.instance.StartFadeToBlack();
-
-        yield return new WaitForSeconds(1f);
-
-        DontDestroyOnLoad(gameObject);
-        SceneManager.LoadScene(levelToLoad);
-
-        yield return new WaitForSeconds(2f);
-
-        UIController.instance.StartFadeFromBlack();
-
-        yield return new WaitForSeconds(.1f);
-        activator = FindObjectOfType<ElevatorActivator>();
-        activator.DestroyElevator();
-
-        yield return new WaitForSeconds(timeAfterFade);
-
-        placePlayer.SetActive(false);
-        player.canMove = true;
-        usingElevator = false;
-
-        player.isUsingElevator = false;
-        activator.SpawnElevator();
-        Destroy(gameObject);
     }
 }

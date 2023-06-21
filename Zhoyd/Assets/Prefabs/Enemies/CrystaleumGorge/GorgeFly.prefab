@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7924325217080542237}
   - component: {fileID: 7924325217080542236}
   - component: {fileID: 7924325217080542239}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Spritesheet_GorgeFly_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -119,7 +119,7 @@ GameObject:
   - component: {fileID: 7924325217726794522}
   - component: {fileID: 7924325217726794517}
   - component: {fileID: 7924325217726794516}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: GorgeFly
   m_TagString: Enemy
   m_Icon: {fileID: 0}

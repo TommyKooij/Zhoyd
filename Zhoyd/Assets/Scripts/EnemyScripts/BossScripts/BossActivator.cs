@@ -9,6 +9,17 @@ public class BossActivator : MonoBehaviour
     public string bossRef;
     #endregion
 
+    private void Awake()
+    {
+        if (PlayerPrefs.HasKey(bossRef))
+        {
+            if (PlayerPrefs.GetInt(bossRef) == 1)
+            {
+                Destroy(gameObject);
+            }
+        }
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Player")

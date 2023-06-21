@@ -51,6 +51,7 @@ public class BossBattle : MonoBehaviour
         } 
         else
         {
+            PlayerPrefs.SetInt(bossRef, 1);
             abilities.hasThresherAccess = true;
             if (rewards != null)
             {
@@ -58,8 +59,8 @@ public class BossBattle : MonoBehaviour
                 rewards.transform.SetParent(null);
             }
 
-            gameObject.SetActive(false);
             AudioManager.instance.StopMusic();
+            gameObject.SetActive(false);
         }
     }
 
@@ -68,8 +69,5 @@ public class BossBattle : MonoBehaviour
         battleEnded = true;
 
         theBoss.GetComponent<Collider2D>().enabled = false;
-        gameObject.SetActive(false);
-
-        PlayerPrefs.SetInt(bossRef, 1);
     }
 }

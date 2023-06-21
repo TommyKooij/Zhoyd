@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class TransitionController : MonoBehaviour
 {
-
+    #region VARIABLES
     private PlayerController thePlayer;
 
     private bool playerExit;
@@ -14,6 +14,7 @@ public class TransitionController : MonoBehaviour
     public float movePlayerSpeed;
 
     public string levelToLoad;
+    #endregion
 
     // Start is called before the first frame update
     void Start()

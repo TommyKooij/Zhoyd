@@ -46,6 +46,7 @@ public class PlayerHealthController : MonoBehaviour
         if (invinceCounter > 0)
         {
             invinceCounter -= Time.deltaTime;
+            Physics2D.IgnoreLayerCollision(9, 14, true);
 
             flashCounter -= Time.deltaTime;
             if (flashCounter <= 0)
@@ -66,6 +67,10 @@ public class PlayerHealthController : MonoBehaviour
                 }
                 flashCounter = 0f;
             }
+        }
+        else
+        {
+            Physics2D.IgnoreLayerCollision(9, 14, false);
         }
         #endregion
     }

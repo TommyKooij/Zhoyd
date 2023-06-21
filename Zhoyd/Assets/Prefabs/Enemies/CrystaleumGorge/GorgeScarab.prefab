@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2321988410289100472}
   - component: {fileID: 2321988410289100474}
   - component: {fileID: 2321988410289100475}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Spritesheet_GorgeScarab_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -118,7 +118,7 @@ GameObject:
   - component: {fileID: 2321988411795975662}
   - component: {fileID: 2321988411795975663}
   - component: {fileID: 2321988411795975660}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: GorgeScarab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -190,8 +190,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f0ec4f966d07a548b742eca9aed187c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  totalHealth: 3
+  currentHealth: 0
+  maxHealth: 0
   deathEffect: {fileID: 0}
+  invincibilityLength: 0
+  flashLength: 0
+  enemySprites: []
 --- !u!114 &2321988411795975660
 MonoBehaviour:
   m_ObjectHideFlags: 0
