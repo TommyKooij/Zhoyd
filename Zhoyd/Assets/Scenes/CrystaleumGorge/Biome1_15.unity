@@ -3656,6 +3656,18 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 840754632041704638, guid: b106712358f46c84d98e6a79e901c732, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 840754632041704638, guid: b106712358f46c84d98e6a79e901c732, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 840754632041704638, guid: b106712358f46c84d98e6a79e901c732, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
     - target: {fileID: 840754632232239064, guid: b106712358f46c84d98e6a79e901c732, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.379998
@@ -3960,6 +3972,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6724900328214250924, guid: b106712358f46c84d98e6a79e901c732, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6724900328214250925, guid: b106712358f46c84d98e6a79e901c732, type: 3}
       propertyPath: name
       value: DoubleJumpUnlocked
@@ -3967,6 +3983,22 @@ PrefabInstance:
     - target: {fileID: 6724900328214250925, guid: b106712358f46c84d98e6a79e901c732, type: 3}
       propertyPath: nameAbility
       value: DoubleJumpUnlocked
+      objectReference: {fileID: 0}
+    - target: {fileID: 9101573211714638501, guid: b106712358f46c84d98e6a79e901c732, type: 3}
+      propertyPath: nameAbility
+      value: DoubleJumpUnlocked
+      objectReference: {fileID: 0}
+    - target: {fileID: 9101573211714638501, guid: b106712358f46c84d98e6a79e901c732, type: 3}
+      propertyPath: unlockMessage
+      value: You have aqcuired Double Jump! Press Space after jumping to jump again.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9101573211714638502, guid: b106712358f46c84d98e6a79e901c732, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 9101573211714638502, guid: b106712358f46c84d98e6a79e901c732, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b106712358f46c84d98e6a79e901c732, type: 3}

@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Module
       objectReference: {fileID: 0}
+    - target: {fileID: 3159237404745818416, guid: 50b31c0b72d915041b8ccb1c58d82d02, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3159237404745818417, guid: 50b31c0b72d915041b8ccb1c58d82d02, type: 3}
       propertyPath: name
       value: ThresherUnlocked
@@ -16239,6 +16243,63 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1001 &4562562832258526278
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4562562830765904537, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904537, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 95.48317
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904537, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 13.442014
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904537, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904537, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904537, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904537, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904537, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904537, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904537, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904537, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904541, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: m_Name
+      value: New_Module
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
 --- !u!1001 &7447274513401551847
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16376,7 +16437,6 @@ MonoBehaviour:
   positionToGo: {x: 93.5, y: 2.9, z: 0}
   placePlayer: {fileID: 7447274513401551849}
   moveSpeed: 1.5
-  levelToLoad: Biome1_9
   up: 0
   down: 1
   usingElevator: 0

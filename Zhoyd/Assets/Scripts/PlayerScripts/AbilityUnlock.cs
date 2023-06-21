@@ -33,9 +33,12 @@ public class AbilityUnlock : MonoBehaviour
     public bool unlockRimeCharger;
 
     public GameObject PickupEffect;
+    public GameObject window;
 
     public string unlockMessage;
     public TMP_Text unlockText;
+
+    private bool pickedUp;
     #endregion
 
     private void Awake()
@@ -44,6 +47,19 @@ public class AbilityUnlock : MonoBehaviour
         {
             if (PlayerPrefs.GetInt(nameAbility) == 1)
             {
+                Destroy(gameObject);
+            }
+        }
+    }
+
+    void Update()
+    {
+        if (pickedUp == true)
+        {
+            Time.timeScale = 0f;
+            if (Input.GetButtonDown("Submit"))
+            {
+                Time.timeScale = 1f;
                 Destroy(gameObject);
             }
         }
@@ -126,7 +142,10 @@ public class AbilityUnlock : MonoBehaviour
             #endregion
 
             #region PICKUP
-            Instantiate(PickupEffect, transform.position, transform.rotation);
+            pickedUp = true;
+            window.SetActive(true);
+            unlockText.text = unlockMessage;
+            /*Instantiate(PickupEffect, transform.position, transform.rotation);
 
             unlockText.transform.parent.SetParent(null);
             unlockText.transform.parent.position = transform.position;
@@ -136,7 +155,7 @@ public class AbilityUnlock : MonoBehaviour
 
             Destroy(unlockText.transform.parent.gameObject, 5f);
 
-            Destroy(gameObject);
+            Destroy(gameObject);*/
             #endregion
         }
     }

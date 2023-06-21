@@ -434,12 +434,12 @@ public class PlayerController : MonoBehaviour
             theRB.velocity = Vector2.zero;
         }
 
-        #region DELETE PLAYPREFS
+        /*#region DELETE PLAYPREFS
         if (Input.GetKeyDown("z"))
         {
             PlayerPrefs.DeleteAll();
         }
-        #endregion
+        #endregion*/
     }
 
     #region METHODS

@@ -314,7 +314,7 @@ Transform:
   - {fileID: 756768187}
   - {fileID: 1562185125}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &460290274
 PrefabInstance:
@@ -2602,7 +2602,7 @@ Transform:
   - {fileID: 990867713}
   - {fileID: 985842102}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1712534976
 PrefabInstance:
@@ -2735,6 +2735,79 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eaffd1d043be8ca46a41a0169e924e34, type: 3}
+--- !u!1001 &1843990191
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4562562830765904537, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904537, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 75.501
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904537, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904537, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904537, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904537, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904537, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904537, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904537, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904537, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904537, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904538, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: nameAbility
+      value: EmeraldAccessUnlocked
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904538, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: emeraldAccess
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904538, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: unlockMessage
+      value: You have aqcuired Emerald Access! Emerald doors can now be opened!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904538, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: thresherAccess
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904541, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: m_Name
+      value: New_Module
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
 --- !u!1001 &1934438408
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2802,6 +2875,10 @@ PrefabInstance:
     - target: {fileID: 3159237404745818416, guid: 50b31c0b72d915041b8ccb1c58d82d02, type: 3}
       propertyPath: m_Name
       value: Module
+      objectReference: {fileID: 0}
+    - target: {fileID: 3159237404745818416, guid: 50b31c0b72d915041b8ccb1c58d82d02, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3159237404745818417, guid: 50b31c0b72d915041b8ccb1c58d82d02, type: 3}
       propertyPath: name

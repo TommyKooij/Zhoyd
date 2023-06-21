@@ -445,7 +445,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &840754632243727739
 Transform:
   m_ObjectHideFlags: 0
@@ -458,6 +458,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 9101573211714638502}
   - {fileID: 6724900328214250920}
   m_Father: {fileID: 840754632646393213}
   m_RootOrder: 3
@@ -584,6 +585,7 @@ MonoBehaviour:
   rewards: {fileID: 840754632243727736}
   bossMusicNumber: 0
   worldMusicNumber: 0
+  bossRef: 
 --- !u!114 &840754632646393212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -599,6 +601,9 @@ MonoBehaviour:
   bossHealthSlider: {fileID: 840754632010011537}
   currentHealth: 30
   theBoss: {fileID: 840754632646393215}
+  invincibilityLength: 0
+  flashLength: 0
+  bossSprites: []
 --- !u!1 &840754632825158359
 GameObject:
   m_ObjectHideFlags: 0
@@ -807,48 +812,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b755a437a45a5a544b816569e207eadc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitBeforeJump: 4
+  moveSpeed: 16
+  anim: {fileID: 840754633366243166}
+  theRB: {fileID: 840754633023143894}
   jumpPoints:
   - {fileID: 840754631519388225}
   - {fileID: 840754631712567307}
   - {fileID: 840754632232239064}
   - {fileID: 840754631712567307}
-  moveSpeed: 16
   jumpForce: 14
-  anim: {fileID: 840754633366243166}
-  theRB: {fileID: 840754633023143894}
+  jumpCounter: 0.5
+  timeBetweenJumps: 1
+  waitBeforeJump: 4
   groundPoint: {fileID: 840754633133535923}
   isGround:
     serializedVersion: 2
     m_Bits: 64
   isOnGround: 0
+  bullet: {fileID: 3468066304187100533, guid: fff8b0ad7489a3445a155a7ce0cb9f8e, type: 3}
   shotCounter: 4
   timeBetweenShots: 1.1
-  jumpCounter: 0.5
-  timeBetweenJumps: 1
-  bullet: {fileID: 3468066304187100533, guid: fff8b0ad7489a3445a155a7ce0cb9f8e, type: 3}
   shotPoint: {fileID: 840754631849163501}
-  stalagtiteSpawnPoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  stalagtite: {fileID: 0}
-  randNum: 0
+  distanceAttacks: 0
 --- !u!114 &840754633023143892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1220,7 +1205,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6267129236359009928, guid: f7cef20a4768182499d11706bbb65d3e, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6267129236359009928, guid: f7cef20a4768182499d11706bbb65d3e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1266,10 +1251,92 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lepus_Module
       objectReference: {fileID: 0}
+    - target: {fileID: 6267129236359009932, guid: f7cef20a4768182499d11706bbb65d3e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7cef20a4768182499d11706bbb65d3e, type: 3}
 --- !u!4 &6724900328214250920 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6267129236359009928, guid: f7cef20a4768182499d11706bbb65d3e, type: 3}
   m_PrefabInstance: {fileID: 840754631934645024}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4692242999420485695
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 840754632243727739}
+    m_Modifications:
+    - target: {fileID: 4562562830765904537, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904537, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904537, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.9178314
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904537, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.6366005
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904537, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904537, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904537, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904537, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904537, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904537, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904537, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904537, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904538, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: unlockMessage
+      value: You have aqcuired Double Jump!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904538, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: thresherAccess
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904538, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: unlockDoubleJump
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904541, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: m_Name
+      value: New_Module
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+--- !u!4 &9101573211714638502 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4562562830765904537, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+  m_PrefabInstance: {fileID: 4692242999420485695}
   m_PrefabAsset: {fileID: 0}

@@ -59,7 +59,7 @@ public class BossBattle : MonoBehaviour
                 rewards.transform.SetParent(null);
             }
 
-            AudioManager.instance.StopMusic();
+            AudioManager.instance.PlayWorldMusic(worldMusicNumber);
             gameObject.SetActive(false);
         }
     }
