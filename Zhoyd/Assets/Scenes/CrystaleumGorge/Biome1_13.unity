@@ -16294,6 +16294,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4562562830765904538, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
+      propertyPath: nameAbility
+      value: ThresherUnlocked
+      objectReference: {fileID: 0}
     - target: {fileID: 4562562830765904541, guid: ef9a1916cded0084c9a96d48f52cd8c9, type: 3}
       propertyPath: m_Name
       value: New_Module
