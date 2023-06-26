@@ -5291,7 +5291,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!19719996 &366099539
 TilemapCollider2D:
@@ -5834,7 +5834,7 @@ Rigidbody2D:
   m_Material: {fileID: 6200000, guid: e4f7e1dc7ecede14cbb26fd5bd3baae7, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!19719996 &471055042
 TilemapCollider2D:
@@ -6631,7 +6631,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!19719996 &672967490
 TilemapCollider2D:
@@ -10618,7 +10618,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!19719996 &1890991780
 TilemapCollider2D:
@@ -11082,7 +11082,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!19719996 &1928475102
 TilemapCollider2D:
@@ -11403,6 +11403,10 @@ PrefabInstance:
     - target: {fileID: 319906073534155299, guid: fa2a48caa8cfa7342801313f552702ad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5146677483737960059, guid: fa2a48caa8cfa7342801313f552702ad, type: 3}
+      propertyPath: crouchButtonPressLimit
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 7563486258924524469, guid: fa2a48caa8cfa7342801313f552702ad, type: 3}
       propertyPath: m_Name

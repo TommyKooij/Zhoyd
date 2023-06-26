@@ -1046,7 +1046,7 @@ MonoBehaviour:
   isStanding: 0
   isCrouching: 0
   isCrawling: 0
-  crouchButtonPressLimit: 0.25
+  crouchButtonPressLimit: 0.2
   shotToFire: {fileID: 6498641783213824191, guid: 7751af1daac88e04f943b97806e46166, type: 3}
   shotPoint: {fileID: 5274202859624011892}
   shotPointCrouch: {fileID: 7182428378570012222}

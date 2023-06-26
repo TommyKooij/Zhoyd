@@ -32,8 +32,6 @@ public class IntroDialogue : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        AudioManager.instance.StopMusic();
-
         if (manager.dialogueEnded == true)
         {
             StartCoroutine(LoadLevelCo());

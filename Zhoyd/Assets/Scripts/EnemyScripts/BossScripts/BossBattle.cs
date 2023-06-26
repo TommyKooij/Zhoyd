@@ -22,6 +22,7 @@ public class BossBattle : MonoBehaviour
 
     public bool isOnGround;
 
+    public GameObject obstacles;
     public GameObject rewards;
     private bool battleEnded;
 
@@ -48,9 +49,11 @@ public class BossBattle : MonoBehaviour
         {
             //theCamera.transform.position = Vector3.MoveTowards(theCamera.transform.position, camPosition.transform.position, camSpeed * Time.deltaTime);
             abilities.hasThresherAccess = false;
+            obstacles.SetActive(true);
         } 
         else
         {
+            obstacles.SetActive(false);
             PlayerPrefs.SetInt(bossRef, 1);
             abilities.hasThresherAccess = true;
             if (rewards != null)
