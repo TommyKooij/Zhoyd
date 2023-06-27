@@ -1025,7 +1025,7 @@ MonoBehaviour:
   isOnGround: 0
   whatIsGround:
     serializedVersion: 2
-    m_Bits: 98368
+    m_Bits: 106560
   isInWater: 0
   whatIsWater:
     serializedVersion: 2
@@ -1034,6 +1034,10 @@ MonoBehaviour:
   whatIsTightSpace:
     serializedVersion: 2
     m_Bits: 32768
+  isOnSlope: 0
+  whatIsSlope:
+    serializedVersion: 2
+    m_Bits: 8192
   anim: {fileID: 3272259157774897196}
   animCrouchShoot: {fileID: 7309251560240515943}
   animCrawlShoot: {fileID: 4916507131790630934}

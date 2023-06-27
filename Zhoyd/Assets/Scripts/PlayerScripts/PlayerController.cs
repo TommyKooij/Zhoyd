@@ -42,6 +42,8 @@ public class PlayerController : MonoBehaviour
     public LayerMask whatIsWater;
     public bool isInTightSpace;
     public LayerMask whatIsTightSpace;
+    public bool isOnSlope;
+    public LayerMask whatIsSlope;
 
     [Header("Animators")]
     public Animator anim;
@@ -228,6 +230,7 @@ public class PlayerController : MonoBehaviour
             isOnGround = Physics2D.OverlapCircle(groundPoint.position, .2f, whatIsGround);
             isInWater = Physics2D.OverlapCircle(groundPoint.position, .2f, whatIsWater);
             isInTightSpace = Physics2D.OverlapCircle(groundPoint.position, .2f, whatIsTightSpace);
+            isOnSlope = Physics2D.OverlapCircle(groundPoint.position, .2f, whatIsSlope);
 
             if (isCrawling && !isOnGround)
             {
@@ -235,6 +238,19 @@ public class PlayerController : MonoBehaviour
                 isStanding = true;
                 crawlingShoot.SetActive(false);
                 standingShoot.SetActive(true);
+            }
+
+            if (isOnSlope)
+            {
+                if (Input.GetAxisRaw("Horizontal") == 0f)
+                {
+                    theRB.velocity = new Vector2(0f, 0f);
+                    theRB.isKinematic = true;
+                }
+                else
+                {
+                    theRB.isKinematic = false;
+                }
             }
             #endregion
 

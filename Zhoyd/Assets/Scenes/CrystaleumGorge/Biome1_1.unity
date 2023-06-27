@@ -5603,7 +5603,7 @@ GameObject:
   - component: {fileID: 471055042}
   - component: {fileID: 471055041}
   - component: {fileID: 471055040}
-  m_Layer: 6
+  m_Layer: 13
   m_Name: Slopes
   m_TagString: Untagged
   m_Icon: {fileID: 0}

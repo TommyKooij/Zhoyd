@@ -26,7 +26,7 @@ TagManager:
   - Destructible
   - Pickup
   - EnemyAttack
-  - FluxBullet
+  - Slope
   - Enemy
   - TightSpace
   - Elevator
@@ -52,11 +52,11 @@ TagManager:
   - name: BackgroundObject
     uniqueID: 400490809
     locked: 0
-  - name: Ground
-    uniqueID: 3172980223
-    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 3172980223
     locked: 0
   - name: Wall
     uniqueID: 3901616391
