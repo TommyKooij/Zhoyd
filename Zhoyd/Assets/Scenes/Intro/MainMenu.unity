@@ -3978,7 +3978,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1948587761
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: ee10d0ffeb6426148b04552a825c8f93, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -9686,6 +9686,10 @@ PrefabInstance:
       propertyPath: OutputAudioMixerGroup
       value: 
       objectReference: {fileID: 2529183525230209416, guid: 8f06270f82ceed04c9d96e6b2a3e40cf, type: 2}
+    - target: {fileID: 4427997736167275770, guid: 9dbebe20b1feaa44cab981a5291a54b8, type: 3}
+      propertyPath: bossMusic.Array.data[0]
+      value: 
+      objectReference: {fileID: 4427997737948069184}
     - target: {fileID: 4427997736167275771, guid: 9dbebe20b1feaa44cab981a5291a54b8, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -9752,3 +9756,8 @@ PrefabInstance:
       objectReference: {fileID: -2364374764622086574, guid: 8f06270f82ceed04c9d96e6b2a3e40cf, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9dbebe20b1feaa44cab981a5291a54b8, type: 3}
+--- !u!82 &4427997737948069184 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3043961249249569727, guid: 9dbebe20b1feaa44cab981a5291a54b8, type: 3}
+  m_PrefabInstance: {fileID: 4427997737948069183}
+  m_PrefabAsset: {fileID: 0}
