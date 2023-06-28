@@ -180,7 +180,7 @@ MonoBehaviour:
   worldMusic:
   - {fileID: 2216533636656342443}
   bossMusic:
-  - {fileID: 0}
+  - {fileID: 3043961249249569727}
   sfx: []
 --- !u!1 &4427997736371740116
 GameObject:
@@ -222,7 +222,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4427997736371740116}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 7245a2ea18af3004caebd3fefa2b0ba3, type: 3}

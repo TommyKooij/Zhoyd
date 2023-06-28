@@ -230,7 +230,7 @@ public class PlayerController : MonoBehaviour
             isOnGround = Physics2D.OverlapCircle(groundPoint.position, .2f, whatIsGround);
             isInWater = Physics2D.OverlapCircle(groundPoint.position, .2f, whatIsWater);
             isInTightSpace = Physics2D.OverlapCircle(groundPoint.position, .2f, whatIsTightSpace);
-            isOnSlope = Physics2D.OverlapCircle(groundPoint.position, .2f, whatIsSlope);
+            isOnSlope = Physics2D.OverlapCircle(groundPoint.position, .01f, whatIsSlope);
 
             if (isCrawling && !isOnGround)
             {
@@ -242,13 +242,14 @@ public class PlayerController : MonoBehaviour
 
             if (isOnSlope)
             {
-                if (Input.GetAxisRaw("Horizontal") == 0f)
+                if (Input.GetAxisRaw("Horizontal") == 0f && !Input.GetButton("Jump"))
                 {
                     theRB.velocity = new Vector2(0f, 0f);
                     theRB.isKinematic = true;
                 }
                 else
                 {
+                    theRB.velocity = new Vector2(theRB.velocity.x, theRB.velocity.y);
                     theRB.isKinematic = false;
                 }
             }
