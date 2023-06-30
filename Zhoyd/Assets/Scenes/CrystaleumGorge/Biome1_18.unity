@@ -4003,6 +4003,10 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 2.5237179
       objectReference: {fileID: 0}
+    - target: {fileID: 5666607533165685878, guid: 891970bfe7ca9ff4996432ad3ea3586b, type: 3}
+      propertyPath: orthographic size
+      value: 1.7
+      objectReference: {fileID: 0}
     - target: {fileID: 5666607533404604165, guid: 891970bfe7ca9ff4996432ad3ea3586b, type: 3}
       propertyPath: levelToLoad
       value: Biome1_4
