@@ -1017,9 +1017,9 @@ MonoBehaviour:
   jumpThreshold: 4.8
   jumpForce: 7.5
   jumpButtonPressLimit: 0.15
-  jumpDrag: 8
+  jumpDrag: 10
   jumpSpeed: 4
-  jumpGravity: 10
+  jumpGravity: 12.5
   gravityTimeJump: 10
   groundPoint: {fileID: 2660425258229268076}
   isOnGround: 0
