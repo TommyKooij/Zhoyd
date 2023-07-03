@@ -1014,8 +1014,8 @@ MonoBehaviour:
   walkGravity: 3.5
   fallGravity: 12
   gravityTimeFall: 15
-  jumpThreshold: 4.8
-  jumpForce: 7.5
+  jumpThreshold: 4.5
+  jumpForce: 8
   jumpButtonPressLimit: 0.15
   jumpDrag: 10
   jumpSpeed: 4
@@ -1085,7 +1085,7 @@ MonoBehaviour:
   hasFluxCharger: 0
   hasScorchCharger: 0
   hasRimeCharger: 0
-  canDoubleJump: 0
+  canDoubleJump: 1
   canDash: 0
   canShootRocket: 0
 --- !u!114 &5138704708943840819
