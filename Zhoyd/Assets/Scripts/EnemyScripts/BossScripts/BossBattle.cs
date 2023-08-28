@@ -48,14 +48,12 @@ public class BossBattle : MonoBehaviour
         if (!battleEnded)
         {
             //theCamera.transform.position = Vector3.MoveTowards(theCamera.transform.position, camPosition.transform.position, camSpeed * Time.deltaTime);
-            abilities.hasThresherAccess = false;
             obstacles.SetActive(true);
         } 
         else
         {
             obstacles.SetActive(false);
             PlayerPrefs.SetInt(bossRef, 1);
-            abilities.hasThresherAccess = true;
             if (rewards != null)
             {
                 rewards.SetActive(true);
