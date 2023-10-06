@@ -1,16 +1,7 @@
 fileFormatVersion: 2
-guid: 548d4f0114e0fbb4ab3b651dbabf55e8
+guid: 7f0c0f331362d4646a9ae06c48af27d6
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 6419319118974392318
-    second: Rory_Idle_0
-  - first:
-      213: 1478594441274717989
-    second: Rory_Idle_1
-  - first:
-      213: 8009618178135048202
-    second: Rory_Idle_2
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -72,11 +63,11 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 256
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -88,10 +79,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 256
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,10 +91,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Server
-    maxTextureSize: 256
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -114,7 +105,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Rory_Idle_0
+      name: Rory_Jump_Normal_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,14 +119,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef7975a4ab0061950800000000000000
-      internalID: 6419319118974392318
+      spriteID: 68cce263bd8adeb4ab6f25be0a4643ea
+      internalID: 112057103
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rory_Idle_1
+      name: Rory_Jump_Normal_1
       rect:
         serializedVersion: 2
         x: 48
@@ -149,14 +140,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 527fb077fc5058410800000000000000
-      internalID: 1478594441274717989
+      spriteID: b7ce3016b73f3dd498a22152981cb60e
+      internalID: -829917616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rory_Idle_2
+      name: Rory_Jump_Normal_2
       rect:
         serializedVersion: 2
         x: 96
@@ -170,14 +161,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a004046db41e72f60800000000000000
-      internalID: 8009618178135048202
+      spriteID: 9dde9315c8496a845a72afa44f76dd64
+      internalID: 2113896164
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rory_Idle_3
+      name: Rory_Jump_Normal_3
       rect:
         serializedVersion: 2
         x: 144
@@ -191,14 +182,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 839c5afa5591aba468e825391edcbab9
-      internalID: -1000618238
+      spriteID: abf31295d07f83643926c80c8c955e3c
+      internalID: -90038488
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rory_Idle_4
+      name: Rory_Jump_Normal_4
       rect:
         serializedVersion: 2
         x: 192
@@ -212,8 +203,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7399763fc5275f49b50b9f7b146f5b9
-      internalID: 1927291562
+      spriteID: ef43dd5a28789e24b9d73b1931d2f336
+      internalID: 794702032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rory_Jump_Normal_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85960d28c1bd0e644a7a55e58fdf7a33
+      internalID: -1764918520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rory_Jump_Normal_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf7fff5e319669449efd0c9978ad275
+      internalID: 998757762
       vertices: []
       indices: 
       edges: []
@@ -229,11 +262,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Rory_Idle_4: 1927291562
-      Rory_Idle_3: -1000618238
-      Rory_Idle_2: 8009618178135048202
-      Rory_Idle_0: 6419319118974392318
-      Rory_Idle_1: 1478594441274717989
+      Rory_Jump_Normal_1: -829917616
+      Rory_Jump_Normal_6: 998757762
+      Rory_Jump_Normal_3: -90038488
+      Rory_Jump_Normal_0: 112057103
+      Rory_Jump_Normal_5: -1764918520
+      Rory_Jump_Normal_4: 794702032
+      Rory_Jump_Normal_2: 2113896164
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

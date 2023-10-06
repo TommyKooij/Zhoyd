@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 895f2c87a27050046a3358960af980ec
+guid: dbff61c4e0f578d4daa927fdd413d6bc
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 512
+    maxTextureSize: 256
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -105,11 +105,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Rory_Spritesheet_JumpHold_0
+      name: Rory_DoubleJump_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 432
+        y: 0
         width: 48
         height: 48
       alignment: 0
@@ -119,18 +119,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5295ae5a76e5f8548918e07a119e6096
-      internalID: 1488288463
+      spriteID: 58c83de06c1f62a40a26020a4888c1ef
+      internalID: 1551083451
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rory_Spritesheet_JumpHold_1
+      name: Rory_DoubleJump_1
       rect:
         serializedVersion: 2
         x: 48
-        y: 432
+        y: 0
         width: 48
         height: 48
       alignment: 0
@@ -140,18 +140,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5dcf903bc891c5841b4c148ac127b42d
-      internalID: 563033972
+      spriteID: d1a57466f8961fb45927e89a306338ba
+      internalID: 97479404
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rory_Spritesheet_JumpHold_2
+      name: Rory_DoubleJump_2
       rect:
         serializedVersion: 2
         x: 96
-        y: 432
+        y: 0
         width: 48
         height: 48
       alignment: 0
@@ -161,18 +161,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1deb7b25c0b650f469bb2f7c6002cfbc
-      internalID: 14419657
+      spriteID: 98f85fee36fd8c94589f21bd617969ab
+      internalID: 2136903753
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rory_Spritesheet_JumpHold_3
+      name: Rory_DoubleJump_3
       rect:
         serializedVersion: 2
         x: 144
-        y: 432
+        y: 0
         width: 48
         height: 48
       alignment: 0
@@ -182,92 +182,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f460acb89d377b749b0e665d73599462
-      internalID: 1086665112
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rory_Spritesheet_JumpHold_4
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 432
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 39696fd200670c540b9ab0d84019b556
-      internalID: -1044579845
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rory_Spritesheet_JumpHold_5
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 432
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 51a82d01ef727094b90a0c40bae73b89
-      internalID: 112556275
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rory_Spritesheet_JumpHold_6
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 432
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 45899b9e69aeb2c44895abb8ca9e5c6e
-      internalID: 10062586
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rory_Spritesheet_JumpHold_7
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 432
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 59f50ba2b02c38f41a7a813206301e68
-      internalID: -1586941769
+      spriteID: 9be5a9b35ac367f41b729877ed716883
+      internalID: -1841834397
       vertices: []
       indices: 
       edges: []
@@ -283,14 +199,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Rory_Spritesheet_JumpHold_7: -1586941769
-      Rory_Spritesheet_JumpHold_4: -1044579845
-      Rory_Spritesheet_JumpHold_0: 1488288463
-      Rory_Spritesheet_JumpHold_1: 563033972
-      Rory_Spritesheet_JumpHold_6: 10062586
-      Rory_Spritesheet_JumpHold_2: 14419657
-      Rory_Spritesheet_JumpHold_3: 1086665112
-      Rory_Spritesheet_JumpHold_5: 112556275
+      Rory_DoubleJump_1: 97479404
+      Rory_DoubleJump_3: -1841834397
+      Rory_DoubleJump_2: 2136903753
+      Rory_DoubleJump_0: 1551083451
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

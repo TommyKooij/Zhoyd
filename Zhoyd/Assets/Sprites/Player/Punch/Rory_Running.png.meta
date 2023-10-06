@@ -1,43 +1,7 @@
 fileFormatVersion: 2
-guid: 615dae63357d3c54a8b74b7ab80d9a4e
+guid: ad995d2024d4e8946b9ac5df523b46a2
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -6210859581405934240
-    second: New_RoryDelcine_SpriteSheet_0
-  - first:
-      213: 6462273571786233267
-    second: New_RoryDelcine_SpriteSheet_1
-  - first:
-      213: 1187688275150101480
-    second: New_RoryDelcine_SpriteSheet_2
-  - first:
-      213: 9077784348401394243
-    second: New_RoryDelcine_SpriteSheet_3
-  - first:
-      213: -8892521595169626472
-    second: New_RoryDelcine_SpriteSheet_4
-  - first:
-      213: -2314142483905535547
-    second: New_RoryDelcine_SpriteSheet_5
-  - first:
-      213: 486201746553620068
-    second: New_RoryDelcine_SpriteSheet_6
-  - first:
-      213: -6792880008090646088
-    second: New_RoryDelcine_SpriteSheet_7
-  - first:
-      213: -7408822578234013839
-    second: New_RoryDelcine_SpriteSheet_8
-  - first:
-      213: 2792637184139114147
-    second: New_RoryDelcine_SpriteSheet_9
-  - first:
-      213: -6230286453973386204
-    second: New_RoryDelcine_SpriteSheet_10
-  - first:
-      213: -3077271610965616763
-    second: New_RoryDelcine_SpriteSheet_11
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -99,7 +63,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -115,10 +79,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 512
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -127,10 +91,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Server
-    maxTextureSize: 512
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -141,11 +105,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: New_RoryDelcine_SpriteSheet_0
+      name: Rory_Running_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 192
+        y: 0
         width: 48
         height: 48
       alignment: 0
@@ -155,18 +119,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06dc7740e189ec9a0800000000000000
-      internalID: -6210859581405934240
+      spriteID: 0fd0ca82365343841b032e7ed5026a03
+      internalID: -1108557549
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New_RoryDelcine_SpriteSheet_1
+      name: Rory_Running_1
       rect:
         serializedVersion: 2
         x: 48
-        y: 192
+        y: 0
         width: 48
         height: 48
       alignment: 0
@@ -176,18 +140,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b596bf239b9ea950800000000000000
-      internalID: 6462273571786233267
+      spriteID: ebbdedc7b58432a43baa9af1bd8f1885
+      internalID: 62402873
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New_RoryDelcine_SpriteSheet_2
+      name: Rory_Running_2
       rect:
         serializedVersion: 2
         x: 96
-        y: 192
+        y: 0
         width: 48
         height: 48
       alignment: 0
@@ -197,18 +161,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ebd73091348b7010800000000000000
-      internalID: 1187688275150101480
+      spriteID: c6431e9c6f36d044297b209ca4ef74de
+      internalID: 1992903194
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New_RoryDelcine_SpriteSheet_3
+      name: Rory_Running_3
       rect:
         serializedVersion: 2
         x: 144
-        y: 192
+        y: 0
         width: 48
         height: 48
       alignment: 0
@@ -218,18 +182,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 342e01ac4c4cafd70800000000000000
-      internalID: 9077784348401394243
+      spriteID: 23c7eab1c2f38984da5cfe3c179af23c
+      internalID: -388204266
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New_RoryDelcine_SpriteSheet_4
+      name: Rory_Running_4
       rect:
         serializedVersion: 2
         x: 192
-        y: 192
+        y: 0
         width: 48
         height: 48
       alignment: 0
@@ -239,18 +203,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 896ac6a49ba679480800000000000000
-      internalID: -8892521595169626472
+      spriteID: 8fe759bca3d8cc045b11900b37dea950
+      internalID: 790294960
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New_RoryDelcine_SpriteSheet_5
+      name: Rory_Running_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 144
+        x: 240
+        y: 0
         width: 48
         height: 48
       alignment: 0
@@ -260,18 +224,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c1ab27fba382efd0800000000000000
-      internalID: -2314142483905535547
+      spriteID: f591527133dda23429100c55b55afebf
+      internalID: -1969303151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New_RoryDelcine_SpriteSheet_6
+      name: Rory_Running_6
       rect:
         serializedVersion: 2
-        x: 48
-        y: 144
+        x: 288
+        y: 0
         width: 48
         height: 48
       alignment: 0
@@ -281,18 +245,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 466c08899e55fb600800000000000000
-      internalID: 486201746553620068
+      spriteID: 3028db4c8c900f6418d4c5e3b88dc93d
+      internalID: -1555360335
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New_RoryDelcine_SpriteSheet_7
+      name: Rory_Running_7
       rect:
         serializedVersion: 2
-        x: 96
-        y: 144
+        x: 336
+        y: 0
         width: 48
         height: 48
       alignment: 0
@@ -302,18 +266,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b987e37f97dab1a0800000000000000
-      internalID: -6792880008090646088
+      spriteID: 570965ceb9d9cc540bfc2c8802b4e7af
+      internalID: 639582986
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New_RoryDelcine_SpriteSheet_8
+      name: Rory_Running_8
       rect:
         serializedVersion: 2
-        x: 144
-        y: 144
+        x: 384
+        y: 0
         width: 48
         height: 48
       alignment: 0
@@ -323,18 +287,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 177c7746e139e2990800000000000000
-      internalID: -7408822578234013839
+      spriteID: 192f1b61938699d4da64e0a134a6edde
+      internalID: 735042342
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New_RoryDelcine_SpriteSheet_9
+      name: Rory_Running_9
       rect:
         serializedVersion: 2
-        x: 192
-        y: 144
+        x: 432
+        y: 0
         width: 48
         height: 48
       alignment: 0
@@ -344,50 +308,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a6b82319b071c620800000000000000
-      internalID: 2792637184139114147
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: New_RoryDelcine_SpriteSheet_10
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 96
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 42cfcf5ca739989a0800000000000000
-      internalID: -6230286453973386204
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: New_RoryDelcine_SpriteSheet_11
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 96
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 587100f16c55b45d0800000000000000
-      internalID: -3077271610965616763
+      spriteID: 98b78d4b113c9c04eafb7db6e105cc75
+      internalID: -1734511508
       vertices: []
       indices: 
       edges: []
@@ -403,18 +325,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      New_RoryDelcine_SpriteSheet_7: -6792880008090646088
-      New_RoryDelcine_SpriteSheet_1: 6462273571786233267
-      New_RoryDelcine_SpriteSheet_10: -6230286453973386204
-      New_RoryDelcine_SpriteSheet_0: -6210859581405934240
-      New_RoryDelcine_SpriteSheet_8: -7408822578234013839
-      New_RoryDelcine_SpriteSheet_6: 486201746553620068
-      New_RoryDelcine_SpriteSheet_3: 9077784348401394243
-      New_RoryDelcine_SpriteSheet_5: -2314142483905535547
-      New_RoryDelcine_SpriteSheet_9: 2792637184139114147
-      New_RoryDelcine_SpriteSheet_11: -3077271610965616763
-      New_RoryDelcine_SpriteSheet_4: -8892521595169626472
-      New_RoryDelcine_SpriteSheet_2: 1187688275150101480
+      Rory_Running_4: 790294960
+      Rory_Running_6: -1555360335
+      Rory_Running_3: -388204266
+      Rory_Running_2: 1992903194
+      Rory_Running_5: -1969303151
+      Rory_Running_1: 62402873
+      Rory_Running_0: -1108557549
+      Rory_Running_9: -1734511508
+      Rory_Running_8: 735042342
+      Rory_Running_7: 639582986
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
