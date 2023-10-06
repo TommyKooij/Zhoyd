@@ -3570,9 +3570,14 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!95 &551706319 stripped
+--- !u!1 &433983130 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2615803150181870860, guid: fa2a48caa8cfa7342801313f552702ad, type: 3}
+  m_PrefabInstance: {fileID: 2106718276}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &433983132 stripped
 Animator:
-  m_CorrespondingSourceObject: {fileID: 3272259157774897196, guid: fa2a48caa8cfa7342801313f552702ad, type: 3}
+  m_CorrespondingSourceObject: {fileID: 516122508001680153, guid: fa2a48caa8cfa7342801313f552702ad, type: 3}
   m_PrefabInstance: {fileID: 2106718276}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &553099571
@@ -6031,6 +6036,16 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &615190000 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4147904925249089445, guid: fa2a48caa8cfa7342801313f552702ad, type: 3}
+  m_PrefabInstance: {fileID: 2106718276}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &615190002 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1109441698556307623, guid: fa2a48caa8cfa7342801313f552702ad, type: 3}
+  m_PrefabInstance: {fileID: 2106718276}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &636609580
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6088,6 +6103,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a353fe6c408b7b0499bf84f435fc261f, type: 3}
+--- !u!1 &665767967 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7721466081682535984, guid: fa2a48caa8cfa7342801313f552702ad, type: 3}
+  m_PrefabInstance: {fileID: 2106718276}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &665767969 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3589634243450328943, guid: fa2a48caa8cfa7342801313f552702ad, type: 3}
+  m_PrefabInstance: {fileID: 2106718276}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &739067244
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7472,6 +7497,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 145406305102079789, guid: fa2a48caa8cfa7342801313f552702ad, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 145406305102079789, guid: fa2a48caa8cfa7342801313f552702ad, type: 3}
+      propertyPath: m_TagString
+      value: Bullet
+      objectReference: {fileID: 0}
     - target: {fileID: 319906073534155299, guid: fa2a48caa8cfa7342801313f552702ad, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -7518,16 +7551,56 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2560812833636589898, guid: fa2a48caa8cfa7342801313f552702ad, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3719907784755831606, guid: fa2a48caa8cfa7342801313f552702ad, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4147904925249089445, guid: fa2a48caa8cfa7342801313f552702ad, type: 3}
+      propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4411138538305169847, guid: fa2a48caa8cfa7342801313f552702ad, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5146677483737960059, guid: fa2a48caa8cfa7342801313f552702ad, type: 3}
       propertyPath: anim
       value: 
-      objectReference: {fileID: 551706319}
+      objectReference: {fileID: 665767969}
+    - target: {fileID: 5146677483737960059, guid: fa2a48caa8cfa7342801313f552702ad, type: 3}
+      propertyPath: crawling
+      value: 
+      objectReference: {fileID: 615190000}
+    - target: {fileID: 5146677483737960059, guid: fa2a48caa8cfa7342801313f552702ad, type: 3}
+      propertyPath: standing
+      value: 
+      objectReference: {fileID: 665767967}
+    - target: {fileID: 5146677483737960059, guid: fa2a48caa8cfa7342801313f552702ad, type: 3}
+      propertyPath: animCrawl
+      value: 
+      objectReference: {fileID: 615190002}
+    - target: {fileID: 5146677483737960059, guid: fa2a48caa8cfa7342801313f552702ad, type: 3}
+      propertyPath: crouching
+      value: 
+      objectReference: {fileID: 433983130}
+    - target: {fileID: 5146677483737960059, guid: fa2a48caa8cfa7342801313f552702ad, type: 3}
+      propertyPath: jumpForce
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5146677483737960059, guid: fa2a48caa8cfa7342801313f552702ad, type: 3}
+      propertyPath: animCrouch
+      value: 
+      objectReference: {fileID: 433983132}
+    - target: {fileID: 5146677483737960059, guid: fa2a48caa8cfa7342801313f552702ad, type: 3}
+      propertyPath: attackDelay
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5146677483737960059, guid: fa2a48caa8cfa7342801313f552702ad, type: 3}
+      propertyPath: attackLunge
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5146677483737960059, guid: fa2a48caa8cfa7342801313f552702ad, type: 3}
       propertyPath: animCrawlShoot
       value: 

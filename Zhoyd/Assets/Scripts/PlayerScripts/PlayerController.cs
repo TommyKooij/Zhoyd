@@ -47,8 +47,8 @@ public class PlayerController : MonoBehaviour
 
     [Header("Animators")]
     public Animator anim;
-    public Animator animCrouchShoot;
-    public Animator animCrawlShoot;
+    public Animator animCrouch;
+    public Animator animCrawl;
 
     [Header("Abilities")]
     private PlayerAbilityTracker abilities;
@@ -56,9 +56,9 @@ public class PlayerController : MonoBehaviour
     [Header("Sprites")]
     public SpriteRenderer theSR;
     public SpriteRenderer afterImage;
-    public GameObject standingShoot;
-    public GameObject crouchingShoot;
-    public GameObject crawlingShoot;
+    public GameObject standing;
+    public GameObject crouching;
+    public GameObject crawling;
     public GameObject staticShoot;
     public bool isStanding;
     public bool isCrouching;
@@ -66,25 +66,15 @@ public class PlayerController : MonoBehaviour
     private float crouchButtonPress;
     public float crouchButtonPressLimit;
 
-    [Header("Shot")]
-    public BulletController shotToFire;
+    [Header("Attack")]
+/*    public BulletController shotToFire;
     public Transform shotPoint;
-    public Transform shotPointCrouch;
-    public float shotDelay;
-    private float shotCounter;
-
-    [Header("Dash")]
-    public float dashSpeed;
-    public float dashTime;
-    private float dashCounter;
-
-    public float afterImageLifetime;
-    public float timeBetweenAfterImages;
-    private float afterImageCounter;
-    public Color afterImageColor;
-
-    public float waitAfterDashing;
-    private float dashRechargeCounter;
+    public Transform shotPointCrouch;*/
+    public float attackDelay;
+    private float attackCounter;
+    public float attackLunge;
+    private int attackCount = 0;
+    public GameObject attackHitbox;
     #endregion
 
     // Start is called before the first frame update
@@ -100,7 +90,7 @@ public class PlayerController : MonoBehaviour
         isCrouching = false;
         isCrawling = false;
 
-        shotCounter = shotDelay;
+        attackCounter = attackDelay;
 
         theRB.gravityScale = walkGravity;
     }
@@ -112,9 +102,9 @@ public class PlayerController : MonoBehaviour
 
         if (isUsingElevator == true)
         {
-            standingShoot.SetActive(false);
-            crouchingShoot.SetActive(false);
-            crawlingShoot.SetActive(false);
+            standing.SetActive(false);
+            crouching.SetActive(false);
+            crawling.SetActive(false);
             isStanding = false;
             isCrouching = false;
             isCrawling = false;
@@ -123,7 +113,7 @@ public class PlayerController : MonoBehaviour
         }
         else if (isCrouching == false && isCrawling == false)
         {
-            standingShoot.SetActive(true);
+            standing.SetActive(true);
             isStanding = true;
             staticShoot.SetActive(false);
         }
@@ -236,8 +226,8 @@ public class PlayerController : MonoBehaviour
             {
                 isCrawling = false;
                 isStanding = true;
-                crawlingShoot.SetActive(false);
-                standingShoot.SetActive(true);
+                crawling.SetActive(false);
+                standing.SetActive(true);
             }
 
             if (isOnSlope)
@@ -326,27 +316,40 @@ public class PlayerController : MonoBehaviour
             #endregion
 
             #region ATTACK
-            shotCounter -= Time.deltaTime;
-            if (shotCounter <= 0)
+            attackCounter -= Time.deltaTime;
+            anim.SetBool("isAttacking", false);
+
+            if (attackCounter <= 0)
             {
                 if (isStanding)
                 {
-                    if (Input.GetButtonDown("Fire1"))
+                    if (attackCount == 0)
                     {
-                        anim.SetTrigger("shoot");
-                        Instantiate(shotToFire, shotPoint.position, shotPoint.rotation).moveDir = new Vector2(transform.localScale.x, 0f);
+                        if (Input.GetButtonDown("Fire1") && isOnGround)
+                        {
+                            anim.SetTrigger("punch");
+                            anim.SetBool("isAttacking", true);
 
-                        shotCounter = shotDelay;
+                            //lunge on no enemy hit, else do not lunge
+                            theRB.velocity = new Vector2(attackLunge * transform.localScale.x, theRB.velocity.y);
+
+                            attackCounter = attackDelay;
+                            attackCount++;
+                        }
                     }
-                }
-                else if (isCrouching)
-                {
-                    if (Input.GetButtonDown("Fire1") && isOnGround)
+                    else if (attackCount == 1)
                     {
-                        anim.SetTrigger("shootCrouch");
-                        Instantiate(shotToFire, shotPointCrouch.position, shotPointCrouch.rotation).moveDir = new Vector2(transform.localScale.x, 0f);
+                        if (Input.GetButtonDown("Fire1") && isOnGround)
+                        {
+                            anim.SetTrigger("followupPunch");
+                            anim.SetBool("isAttacking", true);
 
-                        shotCounter = shotDelay;
+                            //lunge on no enemy hit, else do not lunge
+                            theRB.velocity = new Vector2(attackLunge * transform.localScale.x, theRB.velocity.y);
+
+                            attackCounter = attackDelay;
+                            attackCount--;
+                        }
                     }
                 }
             }
@@ -355,93 +358,37 @@ public class PlayerController : MonoBehaviour
             #region CROUCH & CRAWL
             if (Input.GetAxisRaw("Vertical") < -.9f)
             {
-                crouchButtonPress += Time.deltaTime;
-                if (crouchButtonPress < crouchButtonPressLimit && isStanding == true && moveSpeed == 0f)
+                if (isStanding == true && moveSpeed == 0f)
                 {
                     isStanding = false;
-                    isCrouching = true;
-                    standingShoot.SetActive(false);
-                    crouchingShoot.SetActive(true);
-                }
-                else if (crouchButtonPress >= crouchButtonPressLimit && isCrouching == true)
-                {
-                    isCrouching = false;
                     isCrawling = true;
-                    crouchingShoot.SetActive(false);
-                    crawlingShoot.SetActive(true);
+                    standing.SetActive(false);
+                    crawling.SetActive(true);
                 }
             }
 
             if (Input.GetAxisRaw("Vertical") > .9f)
             {
-                crouchButtonPress += Time.deltaTime;
-                if (crouchButtonPress < crouchButtonPressLimit && isCrawling == true && moveSpeed == 0f && !isInTightSpace)
+                if (isCrawling == true && moveSpeed == 0f)
                 {
                     isCrawling = false;
-                    isCrouching = true;
-                    crawlingShoot.SetActive(false);
-                    crouchingShoot.SetActive(true);
-                }
-                else if (crouchButtonPress >= crouchButtonPressLimit && isCrouching == true)
-                {
-                    isCrouching = false;
                     isStanding = true;
-                    crouchingShoot.SetActive(false);
-                    standingShoot.SetActive(true);
-                }
-            }
-
-            if (Input.GetAxisRaw("Vertical") == 0f)
-            {
-                if (isCrouching != true)
-                {
-                    crouchButtonPress = 0f;
+                    crawling.SetActive(false);
+                    standing.SetActive(true);
                 }
             }
             #endregion
 
-
-            /*#region DASH
-            if (dashRechargeCounter > 0)
-            {
-                dashRechargeCounter -= Time.deltaTime;
-            }
-            else
-            {
-                if (Input.GetKeyDown(KeyCode.LeftShift))
-                {
-                    dashCounter = dashTime;
-
-                    ShowAfterImage();
-                }
-            }
-
-            if (dashCounter > 0)
-            {
-                dashCounter = dashCounter - Time.deltaTime;
-
-                theRB.velocity = new Vector2(dashSpeed * transform.localScale.x, theRB.velocity.y);
-
-                afterImageCounter -= Time.deltaTime;
-                if (afterImageCounter <= 0)
-                {
-                    ShowAfterImage();
-                }
-
-                dashRechargeCounter = waitAfterDashing;
-            }
-            #endregion*/
-
             #region ANIMATIONS
-            if (standingShoot.activeSelf)
+            if (standing.activeSelf)
             {
                 anim.SetBool("isOnGround", isOnGround);
                 anim.SetFloat("speed", Mathf.Abs(theRB.velocity.x));
             }
 
-            if (crawlingShoot.activeSelf)
+            if (crawling.activeSelf)
             {
-                animCrawlShoot.SetFloat("speed", Mathf.Abs(theRB.velocity.x));
+                animCrawl.SetFloat("speed", Mathf.Abs(theRB.velocity.x));
             }
             #endregion
 
@@ -463,22 +410,10 @@ public class PlayerController : MonoBehaviour
     public void ChangeToStanding()
     {
         isCrawling = false;
-        crawlingShoot.SetActive(false);
-        standingShoot.SetActive(true);
+        crawling.SetActive(false);
+        standing.SetActive(true);
         moveSpeed = minMoveSpeed;
         cantJump = false;
-    }
-
-    public void ShowAfterImage()
-    {
-        SpriteRenderer image = Instantiate(afterImage, transform.position, transform.rotation);
-        image.sprite = theSR.sprite;
-        image.transform.localScale = transform.localScale;
-        image.color = afterImageColor;
-
-        Destroy(image.gameObject, afterImageLifetime);
-
-        afterImageCounter = timeBetweenAfterImages;
     }
     #endregion
 }
