@@ -131,5 +131,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   exitPoint: {fileID: 511220197722099038}
-  movePlayerSpeed: 0
+  movePlayerSpeed: 3
   levelToLoad: 

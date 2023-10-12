@@ -10,7 +10,7 @@ public class DestructibleBlock : MonoBehaviour
     {
         if (normalAttack)
         {
-            if (other.tag == "Bullet")
+            if (other.tag == "Bullet" || other.tag == "Punch")
             {
                 Destroy(gameObject);
             }

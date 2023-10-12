@@ -116,4 +116,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CrystaleumGorge/Biome1_2.unity
     guid: 91a86a7d8ad84524b97d6ac4a2cb17f2
+  - enabled: 1
+    path: Assets/Scenes/Intro/SurfaceSalum/SurfaceSalum1.unity
+    guid: 5a764b857129cbe48a8f9bde4c4e0664
+  - enabled: 1
+    path: Assets/Scenes/Intro/SurfaceSalum/SurfaceSalum2.unity
+    guid: be426c30c0e95f2439b67072eb464316
+  - enabled: 1
+    path: Assets/Scenes/Intro/SurfaceSalum/SurfaceSalum3.unity
+    guid: 5c128f391896aab49aaae910042118e5
+  - enabled: 1
+    path: Assets/Scenes/Intro/SurfaceSalum/SurfaceSalum4.unity
+    guid: 4f65dc0efbb6d754695e4e3231f04eb0
   m_configObjects: {}

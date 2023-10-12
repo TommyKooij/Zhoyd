@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 4411138538305169847}
   m_Layer: 0
   m_Name: HitBox
-  m_TagString: Bullet
+  m_TagString: Punch
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -126,7 +126,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.3, y: 0.2}
@@ -1064,16 +1064,16 @@ MonoBehaviour:
   isUsingElevator: 0
   moveSpeed: 0
   minMoveSpeed: 2
-  maxMoveSpeed: 4.8
-  timeBeforeMaxSpeed: 5
-  walkDrag: 20
+  maxMoveSpeed: 5
+  timeBeforeMaxSpeed: 6
+  walkDrag: 15
   canMove: 0
   velocity: 0
   walkGravity: 3.5
   fallGravity: 12
   gravityTimeFall: 15
   jumpThreshold: 4.8
-  jumpForce: 8
+  jumpForce: 8.2
   jumpButtonPressLimit: 0.15
   jumpDrag: 8
   jumpSpeed: 4
@@ -1109,9 +1109,6 @@ MonoBehaviour:
   isCrouching: 0
   isCrawling: 0
   crouchButtonPressLimit: 0.2
-  shotToFire: {fileID: 6498641783213824191, guid: 7751af1daac88e04f943b97806e46166, type: 3}
-  shotPoint: {fileID: 5274202859624011892}
-  shotPointCrouch: {fileID: 7182428378570012222}
   attackDelay: 0.4
   attackLunge: 10
   attackHitbox: {fileID: 145406305102079789}
