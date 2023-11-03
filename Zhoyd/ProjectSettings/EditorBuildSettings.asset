@@ -8,114 +8,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Intro/MainMenu.unity
     guid: b001cdd88b52d6647b5de23a755efb04
   - enabled: 1
     path: Assets/Scenes/Intro/Intro.unity
     guid: 0d030a36d4580954980825f7703e73eb
-  - enabled: 1
-    path: Assets/Scenes/CrystaleumGorge/Biome1_1.unity
-    guid: 80d745c040f11b64e9f7f2b85fd3767f
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/Scenes/CrystaleumGorge/Biome1_2.unity
-    guid: 91a86a7d8ad84524b97d6ac4a2cb17f2
   - enabled: 1
     path: Assets/Scenes/Intro/SurfaceSalum/SurfaceSalum1.unity
     guid: 5a764b857129cbe48a8f9bde4c4e0664
@@ -128,4 +29,28 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Intro/SurfaceSalum/SurfaceSalum4.unity
     guid: 4f65dc0efbb6d754695e4e3231f04eb0
+  - enabled: 1
+    path: Assets/Scenes/CrystaleumGorge/Biome1_1.unity
+    guid: 80d745c040f11b64e9f7f2b85fd3767f
+  - enabled: 1
+    path: Assets/Scenes/CrystaleumGorge/Biome1_2.unity
+    guid: 91a86a7d8ad84524b97d6ac4a2cb17f2
+  - enabled: 1
+    path: Assets/Scenes/CrystaleumGorge/Biome1_3.unity
+    guid: 88a3e690f6a649846aa21ea9185e1ec4
+  - enabled: 1
+    path: Assets/Scenes/CrystaleumGorge/Biome1_4.unity
+    guid: 8248e59d0ae30a943b8a89d265b9296b
+  - enabled: 1
+    path: Assets/Scenes/CrystaleumGorge/Biome1_5.unity
+    guid: 49567ff868d18af4bbf206c6a351497f
+  - enabled: 1
+    path: Assets/Scenes/CrystaleumGorge/Biome1_6.unity
+    guid: 7285e98d7f897d646b26e2e517812f21
+  - enabled: 1
+    path: Assets/Scenes/CrystaleumGorge/Biome1_7.unity
+    guid: 21461abef3fde3441897a1a0a4cb469c
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}

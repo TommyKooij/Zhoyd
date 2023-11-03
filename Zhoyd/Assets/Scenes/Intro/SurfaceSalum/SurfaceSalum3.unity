@@ -2642,11 +2642,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 511220197722099038, guid: fc899a359d29dc84cbf110c328ef2309, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.73
+      value: 2.65
       objectReference: {fileID: 0}
     - target: {fileID: 511220197722099038, guid: fc899a359d29dc84cbf110c328ef2309, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.075
+      value: -0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 511220197722099038, guid: fc899a359d29dc84cbf110c328ef2309, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 511220197722099039, guid: fc899a359d29dc84cbf110c328ef2309, type: 3}
       propertyPath: m_Enabled
@@ -2655,6 +2659,10 @@ PrefabInstance:
     - target: {fileID: 511220198872015681, guid: fc899a359d29dc84cbf110c328ef2309, type: 3}
       propertyPath: m_Name
       value: Transition
+      objectReference: {fileID: 0}
+    - target: {fileID: 511220198872015682, guid: fc899a359d29dc84cbf110c328ef2309, type: 3}
+      propertyPath: waitSpeed
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 511220198872015682, guid: fc899a359d29dc84cbf110c328ef2309, type: 3}
       propertyPath: levelToLoad
@@ -3366,11 +3374,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 511220197722099038, guid: fc899a359d29dc84cbf110c328ef2309, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.73
+      value: 2.65
       objectReference: {fileID: 0}
     - target: {fileID: 511220197722099038, guid: fc899a359d29dc84cbf110c328ef2309, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.075
+      value: -0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 511220197722099038, guid: fc899a359d29dc84cbf110c328ef2309, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 511220197722099039, guid: fc899a359d29dc84cbf110c328ef2309, type: 3}
       propertyPath: m_Enabled
@@ -3379,6 +3391,10 @@ PrefabInstance:
     - target: {fileID: 511220198872015681, guid: fc899a359d29dc84cbf110c328ef2309, type: 3}
       propertyPath: m_Name
       value: Transition (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 511220198872015682, guid: fc899a359d29dc84cbf110c328ef2309, type: 3}
+      propertyPath: waitSpeed
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 511220198872015682, guid: fc899a359d29dc84cbf110c328ef2309, type: 3}
       propertyPath: levelToLoad

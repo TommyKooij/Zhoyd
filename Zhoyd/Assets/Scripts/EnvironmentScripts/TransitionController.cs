@@ -12,6 +12,7 @@ public class TransitionController : MonoBehaviour
 
     public Transform exitPoint;
     public float movePlayerSpeed;
+    public float waitSpeed;
 
     public string levelToLoad;
     #endregion
@@ -50,7 +51,7 @@ public class TransitionController : MonoBehaviour
 
         UIController.instance.StartFadeToBlack();
 
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(waitSpeed);
 
         RespawnController.instance.SetSpawn(exitPoint.position);
         thePlayer.canMove = true;
