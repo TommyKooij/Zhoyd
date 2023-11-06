@@ -1877,7 +1877,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1898,7 +1898,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1919,7 +1919,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1940,7 +1940,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1961,7 +1961,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1982,7 +1982,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2003,7 +2003,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2024,7 +2024,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2045,7 +2045,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2066,7 +2066,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2087,7 +2087,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2108,7 +2108,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2116,6 +2116,342 @@ TextureImporter:
       bones: []
       spriteID: 8072072553ec8ad4f8a7402452f69664
       internalID: 1165959707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_BaryillionFacilities_96
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896efd887a3c4a847a32a39eaef803fd
+      internalID: -1611166770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_BaryillionFacilities_97
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332ab915460cb704c8c3400dac999b05
+      internalID: -979408043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_BaryillionFacilities_98
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c64c422759936da47aa5713e80d940c8
+      internalID: 1074004290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_BaryillionFacilities_99
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac8f0c65498a41439760fed16edc855
+      internalID: -437787881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_BaryillionFacilities_100
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840dd24fc97a1ea4cb8e678c90e27c8c
+      internalID: -1285887183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_BaryillionFacilities_101
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53dbaab493fcea849a8956bfade4aedc
+      internalID: 1230343575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_BaryillionFacilities_102
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0e5470c42d6b942bbb9da0293b5497
+      internalID: 1774783744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_BaryillionFacilities_103
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d757d014388ce449764043582bb16f
+      internalID: -1746134958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_BaryillionFacilities_104
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db93706e78c067f46b8b454e19313cfb
+      internalID: -286860191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_BaryillionFacilities_105
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51511bc2ab16f204fb96092cb32ff4c8
+      internalID: -956176917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_BaryillionFacilities_106
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8289250596d5274786503a93b508f0e
+      internalID: 110083810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_BaryillionFacilities_107
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02a5d9bda67a5e43ac05656fd0ab484
+      internalID: -284493165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_BaryillionFacilities_108
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2696ce1c8c11789428e6fdef6d42cdf6
+      internalID: 2030866622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_BaryillionFacilities_109
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03614c55586996c428547f2fb308a793
+      internalID: -1260976532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_BaryillionFacilities_110
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a4905df883f9c4d9c43c9e52552fc9
+      internalID: 1104042454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_BaryillionFacilities_111
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5f0dd6fb2931b47aeb8f8199fc2f93
+      internalID: -552644858
       vertices: []
       indices: 
       edges: []
@@ -2131,6 +2467,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Tileset_BaryillionFacilities_98: 1074004290
       Tileset_BaryillionFacilities_47: -1536894518
       Tileset_BaryillionFacilities_75: 1764801001
       Tileset_BaryillionFacilities_8: -1045050535
@@ -2141,9 +2478,11 @@ TextureImporter:
       Tileset_BaryillionFacilities_92: 874289342
       Tileset_BaryillionFacilities_34: -1227274661
       Tileset_BaryillionFacilities_62: 1567362791
+      Tileset_BaryillionFacilities_110: 1104042454
       Tileset_BaryillionFacilities_6: 366403862
       Tileset_BaryillionFacilities_22: -802506730
       Tileset_BaryillionFacilities_73: -1224843285
+      Tileset_BaryillionFacilities_104: -286860191
       Tileset_BaryillionFacilities_16: -1053780622
       Tileset_BaryillionFacilities_56: -1593668686
       Tileset_BaryillionFacilities_80: 1209941926
@@ -2154,6 +2493,7 @@ TextureImporter:
       Tileset_BaryillionFacilities_0: -687833622
       Tileset_BaryillionFacilities_84: -358864458
       Tileset_BaryillionFacilities_18: 1982189537
+      Tileset_BaryillionFacilities_111: -552644858
       Tileset_BaryillionFacilities_64: 350457928
       Tileset_BaryillionFacilities_70: -560798872
       Tileset_BaryillionFacilities_31: -987301525
@@ -2162,6 +2502,7 @@ TextureImporter:
       Tileset_BaryillionFacilities_81: 2036419271
       Tileset_BaryillionFacilities_15: -2120158807
       Tileset_BaryillionFacilities_48: 276581642
+      Tileset_BaryillionFacilities_99: -437787881
       Tileset_BaryillionFacilities_59: 1833514454
       Tileset_BaryillionFacilities_38: 1580085708
       Tileset_BaryillionFacilities_4: 1010627507
@@ -2169,8 +2510,10 @@ TextureImporter:
       Tileset_BaryillionFacilities_13: 1772385771
       Tileset_BaryillionFacilities_51: -885986819
       Tileset_BaryillionFacilities_54: -897730893
+      Tileset_BaryillionFacilities_100: -1285887183
       Tileset_BaryillionFacilities_30: 876191597
       Tileset_BaryillionFacilities_39: 2124598198
+      Tileset_BaryillionFacilities_106: 110083810
       Tileset_BaryillionFacilities_55: 1756727170
       Tileset_BaryillionFacilities_69: -869670650
       Tileset_BaryillionFacilities_10: -817835155
@@ -2190,26 +2533,31 @@ TextureImporter:
       Tileset_BaryillionFacilities_32: 1107729877
       Tileset_BaryillionFacilities_12: 1807017728
       Tileset_BaryillionFacilities_67: -1797963436
+      Tileset_BaryillionFacilities_102: 1774783744
       Tileset_BaryillionFacilities_2: -153667800
       Tileset_BaryillionFacilities_26: 374670211
       Tileset_BaryillionFacilities_50: 2069887702
       Tileset_BaryillionFacilities_71: 427142433
       Tileset_BaryillionFacilities_90: 1549354732
       Tileset_BaryillionFacilities_33: -2085610066
+      Tileset_BaryillionFacilities_103: -1746134958
       Tileset_BaryillionFacilities_43: 1577637114
       Tileset_BaryillionFacilities_79: -993358283
       Tileset_BaryillionFacilities_78: -1239332535
       Tileset_BaryillionFacilities_87: -1045611765
+      Tileset_BaryillionFacilities_96: -1611166770
       Tileset_BaryillionFacilities_41: 1649957588
       Tileset_BaryillionFacilities_17: 2057273508
+      Tileset_BaryillionFacilities_97: -979408043
+      Tileset_BaryillionFacilities_109: -1260976532
       Tileset_BaryillionFacilities_58: -2047043331
       Tileset_BaryillionFacilities_82: 2001414770
       Tileset_BaryillionFacilities_7: 145500650
       Tileset_BaryillionFacilities_3: -1123524800
       Tileset_BaryillionFacilities_11: 1761982568
       Tileset_BaryillionFacilities_25: 284595787
-      Tileset_BaryillionFacilities_60: -1987892997
       Tileset_BaryillionFacilities_83: 41281961
+      Tileset_BaryillionFacilities_60: -1987892997
       Tileset_BaryillionFacilities_44: -974348146
       Tileset_BaryillionFacilities_19: -78775765
       Tileset_BaryillionFacilities_88: -612309068
@@ -2218,14 +2566,18 @@ TextureImporter:
       Tileset_BaryillionFacilities_91: 583709386
       Tileset_BaryillionFacilities_74: -1550866391
       Tileset_BaryillionFacilities_23: 795015655
+      Tileset_BaryillionFacilities_101: 1230343575
+      Tileset_BaryillionFacilities_108: 2030866622
       Tileset_BaryillionFacilities_66: -545303891
       Tileset_BaryillionFacilities_63: -1436762987
       Tileset_BaryillionFacilities_46: -1063729655
+      Tileset_BaryillionFacilities_107: -284493165
       Tileset_BaryillionFacilities_14: 1780136825
       Tileset_BaryillionFacilities_65: -2056216529
       Tileset_BaryillionFacilities_42: -1270276183
       Tileset_BaryillionFacilities_21: 921308393
       Tileset_BaryillionFacilities_35: 692196618
+      Tileset_BaryillionFacilities_105: -956176917
       Tileset_BaryillionFacilities_49: 1112772803
   spritePackingTag: 
   pSDRemoveMatte: 0

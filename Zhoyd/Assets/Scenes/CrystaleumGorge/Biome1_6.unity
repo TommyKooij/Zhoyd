@@ -25655,7 +25655,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3645843156806732230, guid: 891970bfe7ca9ff4996432ad3ea3586b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.44
+      value: 3.19
       objectReference: {fileID: 0}
     - target: {fileID: 4877349820027429698, guid: 891970bfe7ca9ff4996432ad3ea3586b, type: 3}
       propertyPath: m_IsActive
@@ -25679,19 +25679,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5666607532981463873, guid: 891970bfe7ca9ff4996432ad3ea3586b, type: 3}
       propertyPath: m_Size.x
-      value: 11.97596
+      value: 11.993118
       objectReference: {fileID: 0}
     - target: {fileID: 5666607532981463873, guid: 891970bfe7ca9ff4996432ad3ea3586b, type: 3}
       propertyPath: m_Size.y
-      value: 20.434132
+      value: 20.451284
       objectReference: {fileID: 0}
     - target: {fileID: 5666607532981463873, guid: 891970bfe7ca9ff4996432ad3ea3586b, type: 3}
       propertyPath: m_Offset.x
-      value: -52.8278
+      value: -52.83638
       objectReference: {fileID: 0}
     - target: {fileID: 5666607532981463873, guid: 891970bfe7ca9ff4996432ad3ea3586b, type: 3}
       propertyPath: m_Offset.y
-      value: -4.0306177
+      value: -4.039194
       objectReference: {fileID: 0}
     - target: {fileID: 5666607533404604167, guid: 891970bfe7ca9ff4996432ad3ea3586b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25707,7 +25707,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6311889846398740808, guid: 891970bfe7ca9ff4996432ad3ea3586b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -12.95
+      value: -13
       objectReference: {fileID: 0}
     - target: {fileID: 6314083770798216258, guid: 891970bfe7ca9ff4996432ad3ea3586b, type: 3}
       propertyPath: m_RootOrder
@@ -25771,7 +25771,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7486644740331556318, guid: 891970bfe7ca9ff4996432ad3ea3586b, type: 3}
       propertyPath: waitSpeed
-      value: 2
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 7486644740331556318, guid: 891970bfe7ca9ff4996432ad3ea3586b, type: 3}
       propertyPath: levelToLoad

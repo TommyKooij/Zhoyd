@@ -50,6 +50,21 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CrystaleumGorge/Biome1_7.unity
     guid: 21461abef3fde3441897a1a0a4cb469c
+  - enabled: 1
+    path: Assets/Scenes/CrystaleumGorge/Biome1_8.unity
+    guid: 40097bb4118c4544bb50b9c247a37c79
+  - enabled: 1
+    path: Assets/Scenes/CrystaleumGorge/Biome1_9.unity
+    guid: db821a1c4793d334aaeee69b8f024573
+  - enabled: 1
+    path: Assets/Scenes/CrystaleumGorge/Biome1_10.unity
+    guid: f885349280e74754d99c6871654d5c62
+  - enabled: 1
+    path: Assets/Scenes/CrystaleumGorge/Biome1_11.unity
+    guid: 196cd73241550cc4ba2b3284af489629
+  - enabled: 1
+    path: Assets/Scenes/CrystaleumGorge/Biome1_12.unity
+    guid: d3036388a22570c469332abf8a6dc2d5
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
