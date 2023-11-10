@@ -59,7 +59,7 @@ public class PlayerController : MonoBehaviour
     public GameObject standing;
     public GameObject crouching;
     public GameObject crawling;
-    public GameObject staticShoot;
+    public GameObject staticStance;
     public bool isStanding;
     public bool isCrouching;
     public bool isCrawling;
@@ -108,14 +108,14 @@ public class PlayerController : MonoBehaviour
             isStanding = false;
             isCrouching = false;
             isCrawling = false;
-            staticShoot.SetActive(true);
+            staticStance.SetActive(true);
             crouchButtonPress = 0f;
         }
         else if (isCrouching == false && isCrawling == false)
         {
             standing.SetActive(true);
             isStanding = true;
-            staticShoot.SetActive(false);
+            staticStance.SetActive(false);
         }
 
         if (canMove && Time.timeScale != 0)
