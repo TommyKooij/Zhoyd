@@ -92,9 +92,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CrystaleumGorge/Biome1_22.unity
     guid: 5af51575152a9164bafca312b7b90d75
-  - enabled: 1
-    path: Assets/Scenes/CrystaleumGorge/Biome1_23.unity
-    guid: 5ef17ecf60a4de54c8c181ddfc54d5e6
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
